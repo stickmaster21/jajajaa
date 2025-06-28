@@ -2884,3 +2884,25 @@ java.util.NoSuchElementException: No value present
 [28Jun2025 23:27:00.599] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Johnnie'/16714, l='ServerLevel[world]', x=-423.49, y=98.00, z=1163.65] died, message: 'Johnnie was slain by Swarmer'
 [28Jun2025 23:27:00.600] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Johnnie'/16714, l='ServerLevel[world]', x=-423.49, y=98.00, z=1163.65] died: Johnnie was slain by Swarmer
 [28Jun2025 23:29:18.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Isn't It Iron Pick]
+[28Jun2025 23:31:04.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hola
+[28Jun2025 23:31:40.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chrisus: Gave 6400 [Acacia Leaves] to santydork]
+[28Jun2025 23:33:17.369] [pool-13-thread-3/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / blue_skies:village_calming_skies], ResourceKey[minecraft:worldgen/structure / ctov:large/village_mountain_alpine], ResourceKey[minecraft:worldgen/structure / blue_skies:village_crystal_dunes], ResourceKey[minecraft:worldgen/structure / ctov:large/village_swamp_fortified], ResourceKey[minecraft:worldgen/structure / ctov:small/village_swamp_fortified], ResourceKey[minecraft:worldgen/structure / ctov:medium/village_mountain_alpine], ResourceKey[minecraft:worldgen/structure / ctov:medium/village_mesa_fortified], ResourceKey[minecraft:worldgen/structure / ctov:small/village_snowy_igloo]] from pos BlockPos{x=-651, y=74, z=853}
+[28Jun2025 23:33:22.574] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4736ms or 94 ticks behind
+[28Jun2025 23:33:35.422] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/waystone/sand
+[28Jun2025 23:33:35.431] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/waystone/sand
+[28Jun2025 23:33:53.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [santydork: Gave 1 [Flint] to santydork]
+[28Jun2025 23:33:59.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [santydork: Gave 1 [Flint and Steel] to santydork]
+[28Jun2025 23:33:59.781] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/waystone/sand
+[28Jun2025 23:33:59.782] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/waystone/sand
+[28Jun2025 23:34:23.311] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 45772ms or 915 ticks behind
+[28Jun2025 23:34:40.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [santydork: Teleported santydork to Chrisus]
+[28Jun2025 23:37:21.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Suit Up]
+[28Jun2025 23:39:29.529] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-562, y=-16, z=1485}
+[28Jun2025 23:39:33.359] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-539, y=-14, z=1504}
+[28Jun2025 23:39:33.876] [Worker-Main-2/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-478, y=-16, z=1487}
+[28Jun2025 23:39:33.877] [Worker-Main-2/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-478, y=-16, z=1487}
+[28Jun2025 23:39:33.877] [Worker-Main-2/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-478, y=-16, z=1487}
+[28Jun2025 23:39:33.980] [Worker-Main-4/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. MutableBlockPos{x=-391, y=-46, z=1486}
+[28Jun2025 23:39:33.980] [Worker-Main-4/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. MutableBlockPos{x=-390, y=-46, z=1486}
+[28Jun2025 23:39:33.980] [Worker-Main-4/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. MutableBlockPos{x=-389, y=-46, z=1486}
+[28Jun2025 23:40:30.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [santydork: Teleported santydork to Chrisus]

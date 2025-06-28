@@ -332,6 +332,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2025-06-28 23:33:11 +0000",
       "minecraft:cherry_grove": "2025-06-28 23:04:06 +0000",
       "minecraft:sunflower_plains": "2025-06-28 23:06:28 +0000",
       "minecraft:savanna_plateau": "2025-06-28 22:50:02 +0000",
@@ -404,6 +405,12 @@
   "create:andesite_alloy": {
     "criteria": {
       "0": "2025-06-28 23:04:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-06-28 23:29:18 +0000"
     },
     "done": true
   },
