@@ -2843,3 +2843,36 @@ java.util.NoSuchElementException: No value present
 [28Jun2025 23:09:09.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Cover Me In Emeralds]
 [28Jun2025 23:10:10.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [A breath of fresh air]
 [28Jun2025 23:10:13.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [A breath of fresh air]
+[28Jun2025 23:11:03.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has reached the goal [Half a flight]
+[28Jun2025 23:11:10.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Acquire Hardware]
+[28Jun2025 23:14:26.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has reached the goal [Exorcism]
+[28Jun2025 23:14:26.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Good Demoman]
+[28Jun2025 23:14:33.414] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/bounty/plains
+[28Jun2025 23:14:33.423] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/vampirism/totem
+[28Jun2025 23:14:33.432] [Worker-Main-3/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/waystone/normal
+[28Jun2025 23:15:07.922] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-84, y=86, z=1174} BlockPos{x=-85, y=84, z=1174}
+[28Jun2025 23:16:39.855] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-148, y=81, z=1188} BlockPos{x=-148, y=81, z=1187}
+[28Jun2025 23:16:39.987] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-148, y=81, z=1188} BlockPos{x=-148, y=81, z=1187}
+[28Jun2025 23:16:46.105] [pool-13-thread-2/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_warped], ResourceKey[minecraft:worldgen/structure / ctov:small/village_mesa_fortified], ResourceKey[minecraft:worldgen/structure / ctov:large/village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / ctov:medium/village_plains_fortified], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_oak], ResourceKey[minecraft:worldgen/structure / blue_skies:village_sunset_maple_forest], ResourceKey[minecraft:worldgen/structure / ctov:small/village_mushroom]] from pos BlockPos{x=-315, y=86, z=1387}
+[28Jun2025 23:16:46.304] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-316, y=86, z=1387} but found not block entity block Block{minecraft:spruce_fence}[east=false,north=false,south=false,waterlogged=false,west=false] at location
+[28Jun2025 23:16:46.304] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:spruce_fence}[east=false,north=false,south=false,waterlogged=false,west=false] but failed at location BlockPos{x=-316, y=86, z=1387}
+[28Jun2025 23:16:46.304] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-316, y=85, z=1387} but found not block entity block Block{minecraft:lantern}[hanging=true,waterlogged=false] at location
+[28Jun2025 23:16:46.304] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:lantern}[hanging=true,waterlogged=false] but failed at location BlockPos{x=-316, y=85, z=1387}
+[28Jun2025 23:16:46.555] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-315, y=86, z=1387} but found not block entity block Block{minecraft:spruce_fence}[east=false,north=false,south=false,waterlogged=false,west=true] at location
+[28Jun2025 23:16:46.555] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:spruce_fence}[east=false,north=false,south=false,waterlogged=false,west=true] but failed at location BlockPos{x=-315, y=86, z=1387}
+[28Jun2025 23:17:42.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hola
+[28Jun2025 23:17:46.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Chrisus> hola
+[28Jun2025 23:18:03.013] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: santydork lost connection: You logged in from another location
+[28Jun2025 23:18:03.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork left the game
+[28Jun2025 23:18:03.124] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: santydork[/127.200.113.83:43597] logged in with entity id 17272 at (-321.9137435775302, 67.0, 1283.7078432457463)
+[28Jun2025 23:18:03.126] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to santydork
+[28Jun2025 23:18:03.126] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to santydork
+[28Jun2025 23:18:03.126] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to santydork
+[28Jun2025 23:18:03.126] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to santydork
+[28Jun2025 23:18:03.128] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to santydork
+[28Jun2025 23:18:03.130] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to santydork
+[28Jun2025 23:18:03.130] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to santydork
+[28Jun2025 23:18:03.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork joined the game
+[28Jun2025 23:18:03.271] [Server thread/INFO] [Jade/]: Syncing config to santydork (d4518864-211c-3690-b6c4-59acc2cbecc4)
+[28Jun2025 23:18:03.881] [Server thread/INFO] [ping-wheel/]: Channel update: santydork -> default
+[28Jun2025 23:19:45.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has reached the goal [Pray to the Goddess]

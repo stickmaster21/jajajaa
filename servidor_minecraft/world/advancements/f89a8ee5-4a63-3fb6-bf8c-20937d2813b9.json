@@ -333,11 +333,15 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cherry_grove": "2025-06-28 23:04:06 +0000",
+      "minecraft:sunflower_plains": "2025-06-28 23:06:28 +0000",
       "minecraft:savanna_plateau": "2025-06-28 22:50:02 +0000",
       "minecraft:stony_peaks": "2025-06-28 22:52:51 +0000",
+      "minecraft:river": "2025-06-28 23:05:32 +0000",
       "minecraft:forest": "2025-06-28 22:38:56 +0000",
+      "minecraft:flower_forest": "2025-06-28 23:06:46 +0000",
       "minecraft:frozen_peaks": "2025-06-28 23:02:59 +0000",
-      "minecraft:savanna": "2025-06-28 22:50:00 +0000"
+      "minecraft:savanna": "2025-06-28 22:50:00 +0000",
+      "minecraft:plains": "2025-06-28 23:07:35 +0000"
     },
     "done": false
   },
@@ -377,6 +381,12 @@
     },
     "done": true
   },
+  "simplyswords:simplyswords": {
+    "criteria": {
+      "requirement": "2025-06-28 23:08:54 +0000"
+    },
+    "done": true
+  },
   "lootr:social": {
     "criteria": {
       "opened_barrel": "2025-06-28 22:59:37 +0000",
@@ -387,6 +397,12 @@
   "create:andesite_alloy": {
     "criteria": {
       "0": "2025-06-28 23:04:00 +0000"
+    },
+    "done": true
+  },
+  "totw_modded:regular_tower": {
+    "criteria": {
+      "regular": "2025-06-28 23:10:10 +0000"
     },
     "done": true
   },
@@ -408,9 +424,21 @@
     },
     "done": true
   },
+  "endrem:main/root": {
+    "criteria": {
+      "corrupted_eye": "2025-06-28 23:09:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2025-06-28 23:03:59 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/corrupted_eye": {
+    "criteria": {
+      "corrupted_eye": "2025-06-28 23:09:09 +0000"
     },
     "done": true
   },
@@ -434,10 +462,17 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-06-28 23:08:19 +0000",
       "minecraft:skeleton": "2025-06-28 22:57:36 +0000",
       "minecraft:zombie": "2025-06-28 22:58:56 +0000"
     },
     "done": false
+  },
+  "ars_nouveau:warp_scroll": {
+    "criteria": {
+      "has_warp_scroll": "2025-06-28 23:08:42 +0000"
+    },
+    "done": true
   },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
