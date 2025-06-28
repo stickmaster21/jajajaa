@@ -340,6 +340,7 @@
       "minecraft:forest": "2025-06-28 22:38:56 +0000",
       "minecraft:flower_forest": "2025-06-28 23:06:46 +0000",
       "minecraft:frozen_peaks": "2025-06-28 23:02:59 +0000",
+      "minecraft:old_growth_birch_forest": "2025-06-28 23:18:21 +0000",
       "minecraft:savanna": "2025-06-28 22:50:00 +0000",
       "minecraft:plains": "2025-06-28 23:07:35 +0000"
     },
@@ -366,6 +367,12 @@
   "create_dd:root": {
     "criteria": {
       "0": "2025-06-28 22:38:56 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:experienced_engineer": {
+    "criteria": {
+      "have_experience_nugget": "2025-06-28 23:24:42 +0000"
     },
     "done": true
   },
@@ -412,6 +419,12 @@
     },
     "done": true
   },
+  "lootr:10loot": {
+    "criteria": {
+      "loot_stat": "2025-06-28 23:20:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2025-06-28 22:49:30 +0000"
@@ -424,9 +437,21 @@
     },
     "done": true
   },
+  "paraglider:pray_to_the_goddess": {
+    "criteria": {
+      "bargain": "2025-06-28 23:19:45 +0000"
+    },
+    "done": true
+  },
   "endrem:main/root": {
     "criteria": {
       "corrupted_eye": "2025-06-28 23:09:09 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/experience_rotor": {
+    "criteria": {
+      "has_item": "2025-06-28 23:24:42 +0000"
     },
     "done": true
   },

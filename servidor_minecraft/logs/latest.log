@@ -2876,3 +2876,11 @@ java.util.NoSuchElementException: No value present
 [28Jun2025 23:18:03.271] [Server thread/INFO] [Jade/]: Syncing config to santydork (d4518864-211c-3690-b6c4-59acc2cbecc4)
 [28Jun2025 23:18:03.881] [Server thread/INFO] [ping-wheel/]: Channel update: santydork -> default
 [28Jun2025 23:19:45.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has reached the goal [Pray to the Goddess]
+[28Jun2025 23:20:58.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Disme A Dozen]
+[28Jun2025 23:21:37.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [santydork: Teleported santydork to Chrisus]
+[28Jun2025 23:25:22.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hola
+[28Jun2025 23:25:56.251] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Maxine'/16713, l='ServerLevel[world]', x=-415.87, y=96.89, z=1170.60] died, message: 'Maxine was slain by Swarmer'
+[28Jun2025 23:25:56.253] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Maxine'/16713, l='ServerLevel[world]', x=-415.87, y=96.89, z=1170.60] died: Maxine was stifled by Swarmer
+[28Jun2025 23:27:00.599] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Johnnie'/16714, l='ServerLevel[world]', x=-423.49, y=98.00, z=1163.65] died, message: 'Johnnie was slain by Swarmer'
+[28Jun2025 23:27:00.600] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Johnnie'/16714, l='ServerLevel[world]', x=-423.49, y=98.00, z=1163.65] died: Johnnie was slain by Swarmer
+[28Jun2025 23:29:18.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Isn't It Iron Pick]
