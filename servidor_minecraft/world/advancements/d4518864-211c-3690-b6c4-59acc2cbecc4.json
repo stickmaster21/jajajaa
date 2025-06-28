@@ -333,6 +333,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:savanna_plateau": "2025-06-28 22:36:11 +0000",
+      "minecraft:stony_peaks": "2025-06-28 22:52:57 +0000",
       "minecraft:forest": "2025-06-28 22:23:08 +0000",
       "minecraft:savanna": "2025-06-28 22:35:27 +0000"
     },
@@ -362,6 +363,12 @@
     },
     "done": true
   },
+  "mutantmonsters:root": {
+    "criteria": {
+      "killed_something": "2025-06-28 22:55:15 +0000"
+    },
+    "done": true
+  },
   "paraglider:root": {
     "criteria": {
       "crafting_table": "2025-06-28 22:35:50 +0000"
@@ -377,6 +384,18 @@
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2025-06-28 22:37:09 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "tomato_seeds": "2025-06-28 22:53:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-06-28 22:55:15 +0000"
     },
     "done": true
   },

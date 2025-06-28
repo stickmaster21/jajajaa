@@ -2762,3 +2762,22 @@ java.util.NoSuchElementException: No value present
 [28Jun2025 22:48:43.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chrisus: Gave 2 [Turtle Egg] to santydork]
 [28Jun2025 22:49:03.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Stone Age]
 [28Jun2025 22:49:30.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Getting an Upgrade]
+[28Jun2025 22:50:47.410] [Worker-Main-2/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=79, y=-28, z=364}
+[28Jun2025 22:51:17.144] [Worker-Main-3/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-66, y=-17, z=415}
+[28Jun2025 22:52:17.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] jajaj
+[28Jun2025 22:53:41.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Crops of the Wild]
+[28Jun2025 22:55:58.195] [Server thread/INFO] [FTB Chunks/]: attempting to transfer 0 chunks from Chrisus#f89a8ee5 to PENE_FLACIDO#51d7c04a
+[28Jun2025 22:55:58.195] [Server thread/INFO] [FTB Chunks/]: Transferred 0 chunks from f89a8ee5-4a63-3fb6-bf8c-20937d2813b9 (Chrisus#f89a8ee5) to 51d7c04a-0943-4335-a335-3d03dcac6d74 (PENE_FLACIDO#51d7c04a)
+[28Jun2025 22:55:58.195] [Server thread/INFO] [FTB Chunks/]: Unclaimed 0 chunks for f89a8ee5-4a63-3fb6-bf8c-20937d2813b9 (Chrisus#f89a8ee5) due to claim limits
+[28Jun2025 22:55:58.195] [Server thread/INFO] [FTB Chunks/]: Team PENE_FLACIDO#51d7c04a had 0 claimed chunks, now has 0
+[28Jun2025 22:56:06.261] [Server thread/INFO] [FTB Chunks/]: attempting to transfer 0 chunks from santydork#d4518864 to PENE_FLACIDO#51d7c04a
+[28Jun2025 22:56:06.261] [Server thread/INFO] [FTB Chunks/]: Transferred 0 chunks from d4518864-211c-3690-b6c4-59acc2cbecc4 (santydork#d4518864) to 51d7c04a-0943-4335-a335-3d03dcac6d74 (PENE_FLACIDO#51d7c04a)
+[28Jun2025 22:56:06.261] [Server thread/INFO] [FTB Chunks/]: Unclaimed 0 chunks for d4518864-211c-3690-b6c4-59acc2cbecc4 (santydork#d4518864) due to claim limits
+[28Jun2025 22:56:06.261] [Server thread/INFO] [FTB Chunks/]: Team PENE_FLACIDO#51d7c04a had 0 claimed chunks, now has 0
+[28Jun2025 22:57:36.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Monster Hunter]
+[28Jun2025 22:58:24.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Monster Hunter]
+[28Jun2025 22:59:28.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement ['X' Marks the Spot]
+[28Jun2025 22:59:37.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Barrel Booty]
+[28Jun2025 22:59:38.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Light Up The World!]
+[28Jun2025 22:59:43.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Barrel Booty]
+[28Jun2025 22:59:50.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Sweet Dreams]
