@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "f89a8ee54a633fb6bf8c20937d2813b9"
+	name: "Chrisus#f89a8ee5"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

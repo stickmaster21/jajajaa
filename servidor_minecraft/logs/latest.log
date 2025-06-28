@@ -2727,3 +2727,38 @@ java.util.NoSuchElementException: No value present
 [28Jun2025 22:36:56.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Stone Age]
 [28Jun2025 22:37:09.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Getting an Upgrade]
 [28Jun2025 22:37:25.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [santydork: Set the time to 1000]
+[28Jun2025 22:38:55.506] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Chrisus[/127.10.16.40:57215] logged in with entity id 1711 at (-34.5, 117.0, -5.5)
+[28Jun2025 22:38:55.510] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to Chrisus
+[28Jun2025 22:38:55.510] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to Chrisus
+[28Jun2025 22:38:55.510] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to Chrisus
+[28Jun2025 22:38:55.511] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to Chrisus
+[28Jun2025 22:38:55.512] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to Chrisus
+[28Jun2025 22:38:55.514] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to Chrisus
+[28Jun2025 22:38:55.514] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to Chrisus
+[28Jun2025 22:38:55.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus joined the game
+[28Jun2025 22:38:55.701] [Server thread/INFO] [Jade/]: Syncing config to Chrisus (f89a8ee5-4a63-3fb6-bf8c-20937d2813b9)
+[28Jun2025 22:38:55.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Integrated Dungeons and Structures]
+[28Jun2025 22:38:55.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Ice and Fire]
+[28Jun2025 22:39:04.606] [Server thread/INFO] [ping-wheel/]: Channel update: Chrisus -> default
+[28Jun2025 22:39:10.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [santydork: Teleported Chrisus to santydork]
+[28Jun2025 22:39:12.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [santydork: Made Chrisus a server operator]
+[28Jun2025 22:39:42.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] jajaj
+[28Jun2025 22:42:08.799] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chrisus lost connection: Timed out
+[28Jun2025 22:42:08.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus left the game
+[28Jun2025 22:42:08.906] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[28Jun2025 22:46:09.844] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Chrisus[/127.10.16.40:46043] logged in with entity id 2919 at (-19.280867250324743, 122.0, 36.40219612420219)
+[28Jun2025 22:46:09.846] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to Chrisus
+[28Jun2025 22:46:09.846] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to Chrisus
+[28Jun2025 22:46:09.846] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to Chrisus
+[28Jun2025 22:46:09.847] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to Chrisus
+[28Jun2025 22:46:09.848] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to Chrisus
+[28Jun2025 22:46:09.850] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to Chrisus
+[28Jun2025 22:46:09.850] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to Chrisus
+[28Jun2025 22:46:09.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus joined the game
+[28Jun2025 22:46:09.989] [Server thread/INFO] [Jade/]: Syncing config to Chrisus (f89a8ee5-4a63-3fb6-bf8c-20937d2813b9)
+[28Jun2025 22:46:16.987] [Server thread/INFO] [ping-wheel/]: Channel update: Chrisus -> default
+[28Jun2025 22:46:43.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] alal
+[28Jun2025 22:46:44.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
+[28Jun2025 22:48:43.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chrisus: Gave 2 [Turtle Egg] to santydork]
+[28Jun2025 22:49:03.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Stone Age]
+[28Jun2025 22:49:30.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Getting an Upgrade]
