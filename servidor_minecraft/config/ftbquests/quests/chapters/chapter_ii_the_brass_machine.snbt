@@ -1,0 +1,1381 @@
+{
+	autofocus_id: "6F2EA0844769A10A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_ii_the_brass_machine"
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1
+		id: "kubejs:brass_machine"
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
+	id: "3E77E18FC0D1193E"
+	images: [{
+		alpha: 200
+		color: 16672790
+		height: 1.2d
+		image: "chalk:block/mark/arrow"
+		rotation: 180.0d
+		width: 1.2d
+		x: -5.5d
+		y: 10.5d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"671ABB3F4DDF8A89"
+				"1C5DFA2AD6DEE1B2"
+				"201291E8B8D4FE73"
+				"05836C34CD66A56F"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"You have Water, you have Sugar, you have Sand, you have Quartz, it’s time to mix it up! "
+				""
+				"Use a &6Mechanical Mixer&r and a &6Basin&r, to mix all the ingredients to get a &bSmall Certus Quartz Bud!&r God that’s a mouthful name."
+			]
+			id: "7D6E6EFCB2DD19A0"
+			rewards: [
+				{
+					count: 5
+					id: "30FA72BAF0EA3275"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "466D705C8DFE163C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "770EC6F492C38791"
+				item: "ae2:small_quartz_bud"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7D6E6EFCB2DD19A0"]
+			description: ["With the small version, you pour water on it using a &6Spout&r. You have to pour water 3 times on the &bSmall Certus Quartz Bud.&r"]
+			id: "72C989B765AD2A4B"
+			rewards: [
+				{
+					count: 5
+					id: "4BC17306251EB648"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "31F2785928AF609E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F60E93DA063643B"
+				item: "ae2:medium_quartz_bud"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["72C989B765AD2A4B"]
+			description: ["With the medium version, you pour water on it using a &6Spout.&r You have to pour water 3 times on the &bMedium Certus Quartz.&r"]
+			id: "0101855DF75D6C40"
+			rewards: [
+				{
+					count: 5
+					id: "45627898A6F728F9"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "5D4B056714BB3B7C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60A42BA3D7D465F9"
+				item: "ae2:large_quartz_bud"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0101855DF75D6C40"]
+			description: ["With the large version, you pour water on it using a &6Spout.&r You have to pour water 3 times on the &bLarge Certus Quartz.&r"]
+			id: "5BFA4F90901AC7B2"
+			rewards: [
+				{
+					count: 5
+					id: "192AA6AEE91BCE4D"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "3941B6A3D78F9C31"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45BC74F0D21F89E3"
+				item: "ae2:quartz_cluster"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5BFA4F90901AC7B2"]
+			description: ["With the Certus Quartz Cluster, you don’t pour water on it, this time you crush it either using the &6Crushing Wheels&r or the &6Millstone.&r"]
+			id: "49E754928BF234F3"
+			rewards: [
+				{
+					count: 5
+					id: "60E939D6F4975586"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "45B69CC282DBDF58"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F9DB8D59AEF9247"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"49E754928BF234F3"
+				"2EBE018FE570EF16"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Pour Destabilized Redstone with a Spout onto a Certus Quartz Crystal 3 times to turn it into a Rose Quartz."]
+			id: "340B69A08A8A7CF3"
+			rewards: [
+				{
+					count: 5
+					id: "269133ADB1795D10"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "3B4B5AD2E461D733"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "16AA68CDC08269AC"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A4A8C8AC00ECBD3"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"5167DEF3903D6CFD"
+				"64A476C01D1C4742"
+			]
+			dependency_requirement: "one_completed"
+			description: ["With the Redstone Dust and Nether Wart you’ve collected. Put them inside a basing on top of a Blaze Burner and mix them up with a Mechanical Mixer."]
+			id: "2EBE018FE570EF16"
+			rewards: [
+				{
+					count: 5
+					id: "03C52E89033512FB"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "4D2F65A7E4A061B2"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40AC3CAADB942375"
+				item: "kubejs:destabilized_redstone_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"You can find &4redstone&r by mining deep in the earth."
+				""
+				"There are recipes to automate the process of getting &4Redstone Dust&r. By washing Crushed Raw Iron."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "64A476C01D1C4742"
+			rewards: [
+				{
+					count: 5
+					id: "2A5547B65BF113F8"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "1C86676759461E59"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "216750237C1CED9A"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"Here’s a trivia for you for a start!"
+				""
+				"Sugar can save your life! When poured in a wound, the sugar granules will soak up the moisture that allows the bacteria to thrive. "
+				""
+				"Without the bacteria, the wound heals more. In some parts of the world, this procedure can save the lives of people who cannot afford antibiotics."
+				""
+				"Now for game facts, you can get&6 sugar&r by cultivating&a Sugar Canes&r or some honey from the bees."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1C5DFA2AD6DEE1B2"
+			rewards: [
+				{
+					count: 5
+					id: "57D8CC9B67EA0360"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "0166710BAE045D1A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14FB44DA4AE233C3"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			dependency_requirement: "one_started"
+			description: [
+				"The famous &bWater Bucket!&r It can save your life! "
+				""
+				"Always carry a &bWater bucket&r with you so when you jump from a high place, if you time it well, you can place the Water to dampen your fall. "
+				""
+				"That’s your Pro tip for the day!"
+				""
+				"&aNote:&r &oYou probably already know how to get a Water Bucket by now.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "05836C34CD66A56F"
+			rewards: [
+				{
+					count: 5
+					id: "5C9617FF2C3C911B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "4FAA1CA1DBBEA9EA"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "646DC6DDBF1F97D5"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: ["You probably already know how to get some Sand by now."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "671ABB3F4DDF8A89"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "3D5E1AA9D2CD4DD0"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "6612FB790A6FEB6B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "640776C3CFE97667"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"5924E1675FE1A9D0"
+				"588F642CD467FC64"
+			]
+			description: ["Time to assemble! You have two ways to do this, you can either use a Deployer holding a &6Polished Quartz Rose&r and place it into an Iron Sheet or you can use Mechanical Crafts for something more fancy looking."]
+			id: "1BAF2EB40FE08B25"
+			rewards: [
+				{
+					count: 5
+					id: "5AC1026E5B0E0C41"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E4EAB68AC539692"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "10B76840ACD9457B"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "087022B81F40CA19"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71C9FE5F39A5B431"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["2BBB5E496BBD52C5"]
+			dependency_requirement: "one_started"
+			description: [
+				"With the Soul Sand in hand, you can now wash it’s sins by using a&6 Encased Fan&r and Water blowing against the Soul Sand and you’ll get&c Nether Quartz&r in return as well a chance of getting a Gold Nugget."
+				""
+				"You can also mine &cNether Quartz&r in the Nether."
+			]
+			id: "201291E8B8D4FE73"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "4A0F7AA8C848BA3F"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "687D36C5DE9A08DF"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A67FE794B73D10B"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["340B69A08A8A7CF3"]
+			description: [
+				"Time to polish the &cRose Quartz.&r To do so you have to use&6 Sand Paper&r, you can either do it by hand or with a Deployer in an automated way. "
+				""
+				"There are various types of &6Sand Paper&r with different durability."
+				""
+				""
+				"&6&lTip:&r&r &oYou can use a Seething Sail as a permanent solution for your polishing automations.&r"
+			]
+			id: "5924E1675FE1A9D0"
+			rewards: [
+				{
+					count: 5
+					id: "33D29EF4A1775CBE"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54D32BB412E23B4B"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "0846A30DE1E43581"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "3B6C175AEB249DD4"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A34C8BAA9CFC455"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"555CE8F6001EF8E7"
+				"14ADA913C53709AE"
+			]
+			dependency_requirement: "one_completed"
+			description: ["To get Brass Ingots you have to mix both&6 Zinc Ingots&r and &6Copper Ingots&r. To do so you need a Basin on top of a Blaze Burner and a Mechanical Mixer."]
+			id: "5E59C8255183FF3E"
+			rewards: [
+				{
+					count: 5
+					id: "095EB4DA657710CB"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48F8F356C43B1165"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+				{
+					id: "4DE2DA6DB9EE06C9"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "543534EF6C25D984"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: ["You probably already know how to get some&d copper ingots&r by now."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "555CE8F6001EF8E7"
+			rewards: [
+				{
+					count: 5
+					id: "3E16256C3273B9B6"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "136C392AF236B77D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5813632ADCCD6073"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"You can get&9 Raw Zinc&r from mining and to turn it into an ingot you have to smelter it. "
+				""
+				"You can use an Encased Fan and Lava for an automated process or use a Seething Sail with an Encased Fan."
+				""
+				"Please check &nRenewable Ores chapter&r for information on how to get a renewable source of &9Raw Zinc&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "14ADA913C53709AE"
+			rewards: [
+				{
+					count: 5
+					id: "5530A5D11FE879F2"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "24CA59890FB943D5"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E1B0C8BEDA1BE1A"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5E59C8255183FF3E"]
+			description: ["Grab your Brass Ingots, place it under a Mechanical Press and start flat lining them to make some Brass Sheets."]
+			id: "701883FE5E3CF381"
+			rewards: [
+				{
+					count: 5
+					id: "39819254B55E4511"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "680F614A30C9B2A8"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+				{
+					id: "354ED7A2B787914C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AFC52965847BD86"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: ["The &cNether Wart&r can be found in the Nether or you can farm like you farm wheat. Instead of dirt you need to plant the &cNether Wart&r in &6Soul Sand&r and the &rNether Wart&r doesn’t need light to grow."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5167DEF3903D6CFD"
+			rewards: [
+				{
+					count: 5
+					id: "2D3EF842CF6D9CC7"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "7CEFC09E09FB28B8"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0BBE8417B8A3BE92"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"61B5DE7788ED3D6D"
+				"70FE285006F6632F"
+				"7A50893172D43878"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"With the Soulless Sand you’ve just made, grab yourself a Soul from the shelf and stick it up the Soulless Sand! "
+				""
+				"To create&6 Soul Sand&r you must use a &cDeployer&r to put a &3Soul Bead&r or&3 Ethereal Spirit&r  into the Soulless Sand, turning it into Soul Sand."
+			]
+			id: "2BBB5E496BBD52C5"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "365AB32A38550F1C"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "0EB6AB22AF8CB9BB"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "254618B5A7F95447"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"The Soul Bead drops from Wraiths. The Wraiths can be found wandering around in the Nether in the Soul Sand Valleys."
+				""
+				"&l&2Note:&r&r &oIn the next chapter you’ll learn how to automate monster drops.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "70FE285006F6632F"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "35F597263E5955BC"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "36B9604DEF912D76"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E812FD4E5FCC138"
+				item: "quark:soul_bead"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["671ABB3F4DDF8A89"]
+			dependency_requirement: "one_completed"
+			description: [
+				"To obtain the Soulless Sand you have to curse the Sand, not verbally though, you use a &bhaunted flame&r. "
+				""
+				"You can use a Soul Campfire or set a Soul Sand on fire with a Flint and Stone or use a Haunting Sail, with an Encased Fan blowing air against a Sand block which will turn it into a Soulless Sand."
+			]
+			id: "61B5DE7788ED3D6D"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "7217A03BCC48B79B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "61EF950CD8D0B0EB"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Sand without a Soul, which begs the question, does Sand contain a Soul? Spoiler alert! It does, in the Nether. "
+			tasks: [{
+				id: "3385925890E92473"
+				item: "forbidden_arcanus:soulless_sand"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"The Ethereal Spirit drops from a variety of monsters that lurk during the night that spawn randomly around the world or structures. "
+				""
+				"&l&2Note:&r&r &oIn the next chapter you’ll learn how to automate monster drops.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7A50893172D43878"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "515488EEC9B8E6A1"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "11DDE0DF7EB14DA8"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A78C95C3292BE29"
+				item: "born_in_chaos_v1:ethereal_spirit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"7F75BF2B511A2B14"
+				"701883FE5E3CF381"
+				"1BAF2EB40FE08B25"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The heart of all &6Brass Machines!&r "
+				""
+				"You can craft the &aPrecision Mechanism&r by using Deployers, a Mechanical Press and a Valve Mechanism. "
+				""
+				"The first Deployer assembles Brass Sheets into the Valve Mechanism, then the second Deployer assembles the Electron Tube, then the last Deployer assembles the Cog Wheel and finally the Mechanical Press does the final touch and you have made the &6Precision Mechanism!&r"
+				""
+				"&aNote:&r &oIt has a 85% success rate and a 15% chance of giving a random item."
+				"&r"
+			]
+			id: "6F2EA0844769A10A"
+			rewards: [
+				{
+					count: 30
+					id: "45AA5A07B71C35F0"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 35
+					id: "4C82B78D51BE4A73"
+					item: "quark:soul_bead"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "5944A534E69E28B4"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "458C7234B5814A99"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79BDEFBD13CE8B52"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					count: 20
+					id: "733FA80C44010DCD"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1F589362BB838A23"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -0.9499999999999993d
+			y: 18.75d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"Remember when you flattened the Copper Ingots? Well do the same for the Iron."
+				""
+				"Use a &6Mechanical Press&r to flatten the Iron Ingots into Iron Sheets."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "588F642CD467FC64"
+			rewards: [
+				{
+					count: 5
+					id: "72F58A3FDEBEB1F1"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "7036D41C6C28B77A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F040CE86620F08A"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			description: [
+				"With all your knowledge and hard work combined, you’ve achieved the ultimate goal of&c Chapter 3!&r The creation of the &aPrecision Machine!&r"
+				""
+				"This will evolve your automation farms to a whole new level of automation and precision! You should pat yourself in the back, you deserve it. "
+				""
+				"Congratulations on getting this far,you’ve mastered the basics of Create, you know how to use the JEI  function so from now on &9you’re on your own! &r"
+				""
+				"The challenges that await you on &lChapter 4 and beyond are harder&r than what you had to do so far but don’t lose hope! I know you can master all chapters, believe in me (the writer) as I believe in you! "
+				""
+				"I know you’ll miss me, but don’t worry! I’ll still be here to help you with certain mechanics in the next chapters but mostly you’re on your own. Good luck!"
+				""
+				"&6&lTip:&r&r &oIf you feel like you’re running out of certain materials, make sure to check the Chapter Renewable Ores.&r"
+			]
+			hide_until_deps_complete: true
+			id: "637D976589937434"
+			rewards: [
+				{
+					count: 2
+					id: "0938031FB8C4E56E"
+					item: "kubejs:brass_machine"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "52DFCA0C258F50ED"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "1C65FDE6CB31F343"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "5E0AFFADD4CFB831"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "595859079B6F0687"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74B7A78C1FBE14BB"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					count: 20
+					id: "4A1566AA979782BC"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1EF9D4CC4F5F39A9"
+				item: "kubejs:brass_machine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["637D976589937434"]
+			description: [
+				"Do you end up with a gazillion chests and not know which chest you put the item that you need for your next build? Then you’ll love this &6Tom's Simple Storage&r, as it makes storing and finding your items much easier!"
+				""
+				"&nHow it works:&r"
+				""
+				"&2Step 1:&r  First, you place down a block called the &6Inventory Connector&r. This is like a better brain than yours. It knows where everything is kept. Then you either place a &6Storage Terminal&r or a &6Crafting Terminal&r on the&6 Inventory Connector&r to access the chests contents. Make sure to use Shift when doing so."
+				"&c&nNote: It also works with Item Vaults&r&r"
+				""
+				"&2Step 2:&r You can place a chest on either side of the&6 Inventory Connector&r and it will read its contents. You can even stack the chests on top of each other and the Inventory Connector will still read their contents as long as one chest is touching the Inventory Connector."
+				""
+				""
+				"&2Step 3:&r If you have Chests that are in a further location, you can use an item &6called Inventory Cable Connector&r against the chest, make sure to use Shift to do so and then you use another item called&6 Inventory Cable&r to make a connection from the &6Cable Connector&r to the I&6nventory Connector&r to read the chests contents even though it’s further away."
+				""
+				"That’s just the basics on how this mod works. It has many more features for you to discover!"
+			]
+			hide_until_deps_complete: true
+			id: "738E4BA03DA3D655"
+			rewards: [
+				{
+					count: 5
+					id: "68C96B15A8ECB312"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2617DA918A6075F4"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "44E8C65FC73DF7B5"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					id: "432DD80996DEB84B"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+				{
+					id: "364F6AA8B4F6ED3E"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+			]
+			title: "&6Tom's Simple Storage"
+			x: -1.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: ["You know how to craft one… Fine… For consistency's sake… Grab a Shaft, grab a Wood Plank and either use a Deployer to place the Wood Plank on a Shaft, or a Mechanical Mixer with a Basin to mix both or use the trusty Crafting Table to make the Cog Wheel. "]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7F75BF2B511A2B14"
+			rewards: [
+				{
+					count: 5
+					id: "4C7E8BF932F2FD39"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "1AEC766B131424CE"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22D8338B1C8A2FB8"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			description: [
+				"&cBuilding Gadgets&r mod allows you to create some cool gadgets to help you build big bases, or for clearing out large areas using the &dDestruction Gadget.&r"
+				""
+				""
+				"&6&lNote:&r&r &oTo charge this Gadget you must use a Tesla Coil and have eletricity. &r"
+			]
+			hide_until_deps_complete: true
+			id: "62E69747ECE312C3"
+			rewards: [
+				{
+					count: 5
+					id: "7F6E12133C631447"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "79EB1CD96A5A997A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52EBF9F28358429D"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 18.75d
+		}
+		{
+			dependencies: ["738E4BA03DA3D655"]
+			description: [
+				"The Wireless Terminal lets you wirelessly access system Terminals. "
+				""
+				"It requires you to look at the Terminal you want to access, and it only has a range of 16 blocks."
+			]
+			id: "77BBCB5B0ED47F06"
+			size: 1.0d
+			tasks: [
+				{
+					id: "1AC9DFB9976FC800"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					id: "10F2D8797ABEE6F9"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["77BBCB5B0ED47F06"]
+			description: ["Framed storage items can be painted with a Paint Kit to disguise them as any full block while maintaining functionality."]
+			id: "07E522F440A317AA"
+			rewards: [{
+				id: "0D8EFAE620D1FF15"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "229F1D341BDC9216"
+					item: "toms_storage:ts.inventory_cable_framed"
+					type: "item"
+				}
+				{
+					id: "4CC9B1F5F66C483F"
+					item: "toms_storage:ts.inventory_cable_connector_framed"
+					type: "item"
+				}
+			]
+			title: "Framed Inventory Cables"
+			x: 2.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["07E522F440A317AA"]
+			description: [
+				"Use a paint kit to disguise Framed storage blocks. "
+				""
+				"Shift-right click any full block to pick it and then right-click a Framed storage block to disguise it."
+			]
+			id: "3C5651A758797922"
+			rewards: [{
+				id: "1F142E3420718EBE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E4812D002D387A0"
+				item: {
+					Count: 1
+					id: "toms_storage:ts.paint_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["738E4BA03DA3D655"]
+			description: [
+				"The Wireless Terminal lets you wirelessly access system Terminals. "
+				""
+				"It requires you to look at the Terminal you want to access, and it only has a range of 32 blocks."
+			]
+			id: "078236AFE937C60D"
+			rewards: [{
+				id: "4C3407301FF30F37"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4724BF6D9BC02EB8"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["738E4BA03DA3D655"]
+			id: "0B177BE0E648B743"
+			rewards: [{
+				id: "251E50566266FCD1"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "A hopper with filters"
+			tasks: [{
+				id: "7B0C645CD0806C68"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["738E4BA03DA3D655"]
+			id: "7F8C4AC998EA00CF"
+			rewards: [{
+				id: "28DC90A314E0A18F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "31ADF72D76B71816"
+				item: "toms_storage:ts.inventory_proxy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["738E4BA03DA3D655"]
+			id: "71A6E188F736F35E"
+			rewards: [{
+				id: "3DC80616496AD193"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B0F3BD56E98F22E"
+				item: "toms_storage:ts.trim"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["62E69747ECE312C3"]
+			description: [
+				"&6&lNote:&r&r &oTo charge this Gadget you must use a Tesla Coil and have eletricity. &r"
+				""
+				"&3Build to Me:&r Build from the block  and blockface you're looking at to the players current position. This is the only mode that does not use the Range modifier, as it always builds to the player's current position."
+				""
+				"&3Vertical Column:&r Build a vertical column of blocks of height equal to the range modifier.  If you look at the Top of a blockface it builds up, bottom of the blockface it builds down, and side of a blockface builds half of the blocks above, and half below."
+				""
+				"&3Horizontal Column:&r Otherwise known as a row. Builds Horizontally away from the blockface you're looking at.  If you look at the top/bottom of a block, it builds in the direction your player is looking."
+				""
+				"&3Vertical Wall:&r Builds a wall of size Range x Range (Example: &63x3&r, &65x5&r, etc). Like the vertical column, looking at the top of a block builds up, bottom of a block builds down, and middle of a block builds around it."
+				""
+				"&3Horizontal Wall&r: Builds a wall of blocks towards the player off of the blockface the player is looking at. If looking at the top/bottom of a block, it builds around that block."
+				""
+				"&3Stairs&r: Will build a set of stairs. If the block you are looking at is above you, the stairs will be built downwards and towards the player. If the block you look at is below you, they are built upwards away from the player."
+				""
+				"&3Checkerboard&r: Otherwise known as the Torch mode, this mode will build in a checkered pattern allowing you to place in the pattern of &2[]&r-&2[]&r-&2[]&r-&2[]&r []: being blocks and -: being air."
+			]
+			id: "147ED68A6F29842F"
+			rewards: [{
+				count: 2
+				id: "54AEB651A5F41895"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "The Building Gadget allows you to build structures using a set of different Building Modes."
+			tasks: [{
+				id: "74D0FD27B92E59B4"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 18.75d
+		}
+		{
+			dependencies: ["147ED68A6F29842F"]
+			description: [
+				"Some of the functions of the Copy Paste Gadget are listed below."
+				""
+				"◘ Ability to copy large areas of blocks"
+				""
+				"◘ Visual Preview"
+				""
+				"◘ Visual Selection"
+				""
+				"◘ Ability to offset templates from the block you're looking at."
+				""
+				"◘ Ability to rotate templates"
+				""
+				"◘ Ability to copy Templates from other users using the&6&l &nTemplate Manager.&r&r&r"
+				""
+				"◘ Ability to undo your last build"
+			]
+			id: "700F1EEA44663AF4"
+			rewards: [{
+				count: 2
+				id: "5A3FB5392B3E560A"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "The Copy Paste Gadget allows you to select a large radius to copy and paste in a different location."
+			tasks: [{
+				id: "1D1ADBD79BEDAD05"
+				item: {
+					Count: 1
+					id: "buildinggadgets2:gadget_copy_paste"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["147ED68A6F29842F"]
+			description: [
+				"&3Wall&r - Exchanges in a Range x Range (Example: 3x3 or 5x5), around the block you're looking at. It will only exchange blocks that match the block you are looking at."
+				""
+				"&3Horizontal Column&r - Horizontal with respect to the players look vector. This will be a straight line typically left and right of the block you're looking at."
+				""
+				"&3Vertical Column&r - Vertical with respect to the players look vector. This will be a straight line typically up and down of the block you're looking at."
+				""
+				"&3Checkerboard&r - this mode will build in a checkered pattern allowing you to place in the pattern of &2[]&r-&2[]&r-&2[]&r-&2[]&r []: being blocks and -: being air."
+			]
+			id: "35436126527BB3F7"
+			rewards: [{
+				count: 2
+				id: "221542A2EAE2986E"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes."
+			tasks: [{
+				id: "09C13AF160A31BB0"
+				item: "buildinggadgets2:gadget_exchanging"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["700F1EEA44663AF4"]
+			description: [
+				"The Template Manager is a block that enables you to save your copies forever. Place down the Template Manager and right click it. "
+				""
+				"In the left slot, place a Copy-Paste Gadget that has a copied build. Place a piece of vanilla paper in the right slot."
+				""
+				" You can type a name for the template you are about to create in the black bar at the top of the GUI. Now hit save. Your piece of paper will turn into a Template. "
+				""
+				"The Template will store the name you gave it, and the copied build that was in the Copy-Paste Gadget. Now, you can load any template onto your Copy-Paste Gadget by placing the gadget in the left slot, placing the template in the right slot, and clicking Load."
+				""
+				" A preview of what is currently loaded on the Copy-Paste Gadget can be seen on the left side of the GUI."
+				""
+				"If you press Copy, text will be copied to your clipboard that corresponds to creating a template for what is saved in the Copy-Paste Gadget. "
+				""
+				"You can send this text to anyone in the world and other people can copy it as well. With this text copied, you, or anyone with the copied text, can hit paste to create a template that is exactly the same as if you had followed the above process."
+			]
+			id: "471D399F03EDCF9C"
+			tasks: [{
+				id: "6FB8C24917C94CE0"
+				item: "buildinggadgets2:template_manager"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			description: [
+				"Just attach the right pipe type—&eitems&r, &bfluids&r, or &cenergy&r—to the blocks you want connected."
+				""
+				"For now you only have acess to &eitem pipes&r."
+				""
+				"Use the &aPipe Wrench&r (it's compatible with other wrenches) to easily configure sides: set them to &dpull&r, &dpush&r, or &ddisconnect&r entirely."
+				""
+				"It's logistics simplified!"
+			]
+			id: "33981F0231E2187E"
+			rewards: [{
+				count: 20
+				id: "1BE30227F867AF1B"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "26929F4B85C13B0B"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					id: "2686D7B3A51A70BF"
+					item: "pipez:wrench"
+					type: "item"
+				}
+			]
+			title: "Pipez"
+			x: -2.7d
+			y: 18.7d
+		}
+		{
+			dependencies: ["33981F0231E2187E"]
+			description: [
+				"Each upgrade enhances the transfer speed of &aPipez&r and unlocks additional pipe features:"
+				""
+				"&6Basic Upgrade&r: enables pipes to be controlled by Redstone signals."
+				""
+				"&6Improved Upgrade&r: provides options for custom distribution of items."
+				""
+				"&6Advanced Upgrade&r: allows applying filters to specify exactly what gets transferred."
+				""
+				"&6Ultimate Upgrade&r: maximizes transfer speed but doesn't add new features."
+				""
+				"Those will unlock at later stages."
+			]
+			id: "0BCC513F995DF314"
+			rewards: [{
+				id: "2DDD7266E6C3D956"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F3FDEB8637340E0"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 18.7d
+		}
+	]
+	title: "Chapter III: The Precision Machine"
+}

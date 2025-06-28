@@ -1,0 +1,3934 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basics"
+	group: ""
+	icon: {
+		Count: 1
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "storagenetwork:network_book"
+		}
+	}
+	id: "09B56D111668F538"
+	images: [
+		{
+			height: 6.0d
+			image: "kubejs:textures/logo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -40.0d
+			y: 18.1d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -28.0d
+			y: 17.0d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -31.6d
+			y: 17.2d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -9.5d
+			y: 17.0d
+		}
+		{
+			click: "https://discord.gg/yRAmua5keG"
+			height: 1.0d
+			image: "supplementaries:textures/gui/book/icon/discord.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -32.1d
+			y: 15.4d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: -16.0d
+			y: 15.0d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: -18.0d
+			y: 15.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"The &5Talent Tree&r is the most important method of player progression strength."
+				""
+				"You can open the &5Talent Tree&r by pressing &bK&r"
+				""
+				"To reassign your talents, use the consumable item &cTalent Tree Reset&f, which refunds all your skill points upon use. The means to acquire a &cTalent Tree Reset&f are unlocked at later stage. "
+				""
+				"&eSkill points&f are primarily earned through challenging boss battles, with a max of &671 skills&r in total, all obtainable via quests. "
+				""
+				"For a comprehensive guide on acquiring &eskill points&f, refer to the &2'Bosses and Skill Points'&f chapter."
+			]
+			icon: "kubejs:skill_add_point"
+			id: "072DA448D144179C"
+			rewards: [{
+				command: "/puffish_skills points add @s talentree 1"
+				elevate_perms: true
+				icon: "kubejs:skill_add_point"
+				id: "2F72B652621B93C9"
+				silent: true
+				title: "+1 Skill Point"
+				type: "command"
+			}]
+			tasks: [{
+				id: "13FDAAB9648E3D0D"
+				title: "&l&6Unlock Chapter: Bosses and Skill Points"
+				type: "checkmark"
+			}]
+			title: "Progression: The Talent Tree"
+			x: -35.9d
+			y: 19.0d
+		}
+		{
+			description: [
+				"&lGreetings, intrepid explorer!&r You've embarked on a grand journey where creativity meets adventure, blending automation and magic. Welcome to a world full of possibilities!"
+				""
+				"Your &2Quest Book&r will guide you through the game's progression. If it's ever out of reach, look at the top left of your inventory or press &aF4 to recall it&r."
+				""
+				"Completing quests will reward you with XP and special items, enhancing your journey."
+				""
+				"At the heart of this pack is the art of &6Create automation&r, divided into 10 chapters. Each chapter unlocks new content as you progress."
+				""
+				"This world is full of adventure and danger, with grand structures, tough bosses, and diverse worlds to explore. Be prepared for the challenges ahead."
+				""
+				"&dThanks for playing the pack ❤&r"
+				""
+				"&b&lIn Create Chronicles: Bosses and Beyond, your saga awaits!&r&r"
+			]
+			id: "1F6BC8C2A5B8F9B2"
+			rewards: [{
+				count: 20
+				id: "167DE99A77DBDD03"
+				item: "farmersdelight:sweet_berry_cookie"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Hello and welcome to &6Create Chronicles: Bosses and Beyond!&r"
+			tasks: [{
+				id: "184D02801FC28C38"
+				title: "&l&6Unlock Chapter 1"
+				type: "checkmark"
+			}]
+			title: "&9Welcome!"
+			x: -33.9d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"Do you know how to punch trees?"
+				""
+				"If you're unsure of what to do, just start by playing Minecraft as usual."
+				""
+				"Build a house, start a farm, and do the basics."
+				""
+				""
+				"&n&6JEI is your best friend!&r&r"
+				"To search for items in JEI, use the search bar at the bottom right of your inventory screen."
+				""
+				"To find items from a specific mod, type &e@modname&r in the search bar. For example, type &e@modname&r to see all items from that mod."
+				""
+				"Clicking on items in the item list to the right of your inventory will show their recipes and uses."
+				""
+				"You can also press &dR&r while hovering over any item to see its recipe, and &dU&r to see its uses."
+			]
+			id: "0C49795E134A27E0"
+			rewards: [{
+				id: "1388C1348A74DF51"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1DD5BBE838C429A3"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "&6Always the same"
+			x: -29.85d
+			y: 18.0d
+		}
+		{
+			dependencies: ["72A5DEFDD0F3470D"]
+			description: [
+				"In 1.20, creating Netherie tools and armour has changed. You'll need to find the &dNetherite Smiting Template&r in chests found inside of Bastions."
+				""
+				"Don't use all your templates in one go as you can duplicate those."
+			]
+			id: "6EDC6D809402C84C"
+			rewards: [{
+				id: "3BE68D65CCD63759"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "096AF6AAAD52211A"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "&6Netherite Template"
+			x: 4.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"Looking to soar through the skies without venturing into the End for an Elytra? Consider crafting a jetpack instead."
+				""
+				"You'll gain access to &6mechanical crafters in Chapter 3&r, paving the way for your aerial adventure."
+				""
+				"You can also dive into magic for alternative methods of flight."
+			]
+			id: "0C7046AD65831DAC"
+			rewards: [{
+				id: "6941E9B443360ADA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4CDC98F4B0439B5A"
+				item: {
+					Count: 1
+					id: "create_sa:andesite_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Early Game Flight"
+			x: -7.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"We all like finding treasure, and&d Lootr Chests&r make it fun."
+				""
+				"These chests give different loot for each player, so you and your friends can all take treasure without taking from each other!"
+				""
+				"In these chests, you might find special items called &6Artifacts&r and &aRings of Ascension&r. You can put them in special slots called &bCurios&r for cool powers or skills."
+			]
+			icon: "lootr:trophy"
+			id: "7FA9BBBA1DBB5F32"
+			tasks: [{
+				id: "1A913BDE3452E930"
+				title: "Click to Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Loot Chests"
+			x: -35.9d
+			y: 17.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"&eWaystones&r can be discovered scattered throughout the world or within villages, offering a fast way to travel across vast distances."
+				""
+				"Additionally, you might find &atowers in the wild&r, typically housing a waystone at their summit."
+				""
+				"You can rename any waystone by shift-right-clicking it with an empty hand."
+				""
+				"Breaking a waystone yields &d3 Warp Fragments&r rather than the entire block. "
+				""
+				"These fragments become useful for crafting a new waystone once you've obtained &8skystone&r from the moon."
+				""
+				"Keep an eye out for &ewaystones&r early in your adventure, as they significantly ease the exploration of the map."
+				""
+				"Moreover, there are &dmagical&r methods available to create teleportation points around the world!"
+			]
+			icon: "waystones:waystone"
+			id: "67FA8896AD563A77"
+			rewards: [{
+				id: "7B0DEB5DF9F95C18"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			subtitle: "Waystones"
+			tasks: [{
+				id: "6F08B962A9B440A2"
+				title: "Click to Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Waystones"
+			x: -33.9d
+			y: 16.0d
+		}
+		{
+			dependencies: ["640C3588E6BA8DF2"]
+			description: [
+				"&cSimply swords&r adds in a brand new arsenal of weapons to play around with."
+				""
+				"It also introduces extremely rare&6 Legendary weapons&r with special abilities. These weapons can only drop from certain bosses."
+				""
+				"Experiment with the exciting new types of weapons available."
+				""
+				"It also has the unique featureset of &3Runic Powers&r, which can be given to weapons via &n&bsockets&r!"
+				""
+				"Unique weapons have a chance to roll up to &6two sockets&r when looted. "
+				""
+				"There are two types of sockets, &bNetherfused and Runefused&r."
+				""
+				"To socket a weapon, simply left click on the gem and then left click on a weapon with the corresponding socket type."
+				""
+				"Note: Gems cannot be removed once socketed."
+			]
+			icon: {
+				Count: 1
+				id: "simplyswords:brimstone_claymore"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F1F1047E8A734EC"
+			rewards: [{
+				id: "721FF67AC2FD6B87"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "New and legendary weapons"
+			tasks: [{
+				id: "2641C625B57F3705"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "simplyswords:runic_grimoire"
+					}
+				}
+				type: "item"
+			}]
+			x: -22.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"&bAlex's Mobs&r is a mod that adds 89 new mobs to Minecraft. All of these mobs fall into either two categories: most of them are real world creatures, like Grizzly Bears, Roadrunners, Orcas, etc; but some of them are purely fictional, like the Endergade and Bone Serpent. "
+				""
+				"All of these creatures fulfill a necessary purpose, and either have unique drops, mechanics or functions, as there are no purely aesthetic creatures. "
+				""
+				"&6The Animal Dictionary&r is a very basic guide and documentation of each creature added by the mod, and should provide insight into uses for each of the mobs or their drops."
+			]
+			icon: "alexsmobs:animal_dictionary"
+			id: "018D3C4DBED54803"
+			rewards: [{
+				id: "3DAC8A3BB2FB7AFB"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "New Animals"
+			tasks: [{
+				id: "15EDF99888160CC9"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			title: "Alex's Mobs"
+			x: -22.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["123D70CA4959F172"]
+			description: ["Dimensional Dungeons is a mod about creating portals to semi-randomly generated dungeons with different challenges and puzzles for you to solve or fight your way through. To get started you will need gilded portal blocks."]
+			id: "479BCCC330D6725A"
+			rewards: [{
+				id: "25AEE5EABCB3C6DD"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Gilded portal block"
+			tasks: [{
+				count: 2L
+				id: "3F8765763646ECDD"
+				item: "dimdungeons:block_gilded_portal"
+				type: "item"
+			}]
+			title: "Dimensional Dungeons"
+			x: 6.5d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"7B4DB4B0D17BE6C4"
+				"6BC9E9B971DEE60A"
+			]
+			description: [
+				"Now that we have an inscribed key and our gilded portal blocks, all we need is the portal keystone that will act as our doorway into dimensional dungeons. The image below shows how to set up the portal frame using stone bricks and the portal blocks."
+				""
+				"{image:kubejs:textures/bare_portal_frame.png width:200 height:120 align:1}"
+			]
+			id: "70068CFDA790A856"
+			rewards: [
+				{
+					id: "5A6D5150CFD16EA9"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+				{
+					id: "56B9713B96937881"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "The last step"
+			tasks: [{
+				id: "5051B0937885FF15"
+				item: "dimdungeons:block_portal_keyhole"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["479BCCC330D6725A"]
+			description: ["Blank portal keys can be aquired via crafting, as loot, or from adventurer bounties. They are the key to opening new dimensional dungeons."]
+			id: "7B4DB4B0D17BE6C4"
+			rewards: [{
+				id: "07DDC96B14693645"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "Get a blank portal key"
+			tasks: [{
+				id: "67D7AB20A178B8A4"
+				item: "dimdungeons:item_portal_key"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["70068CFDA790A856"]
+			description: [
+				"Inside dimensional dungeons you will sometimes find portal setups with banners and portal crown blocks. you can upgrade your own portal using these blocks in order to allow it to use Advanced keys. Keystones wont accept advanced keys unless you have the portal crown blocks, and banners on the gilded portal blocks. You can inscribe an Blank Advanced Portal Key the same way as a normal key."
+				""
+				"{image:kubejs:textures/advanced_portal_build.png width:200 height:120 align:1}"
+			]
+			id: "6A465B0AE8586176"
+			rewards: [
+				{
+					id: "09562381EF6CF006"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+				{
+					id: "7FBB4AF74D31C240"
+					type: "xp"
+					xp: 70
+				}
+			]
+			subtitle: "Advanced Portal Keys"
+			tasks: [{
+				count: 2L
+				id: "44D4014014A0C6D4"
+				item: "dimdungeons:block_portal_crown"
+				type: "item"
+			}]
+			title: "Advanced Portals"
+			x: 5.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["479BCCC330D6725A"]
+			description: ["Each dimensional dungeon you open will have its own unique name inscribed on the key it belongs to. In order to name a key you must right-click the blank portal key on &6The Key Inscription Station&r."]
+			id: "6BC9E9B971DEE60A"
+			rewards: [
+				{
+					id: "56139D410D078D3C"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+				{
+					id: "1CBDEF934517F060"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "Key Inscription Station"
+			tasks: [{
+				id: "6254D4627A80A005"
+				item: "dimdungeons:block_key_charger"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["7B4DB4B0D17BE6C4"]
+			description: ["The Blank Personal Dimension Key can be inscribed the same as a normal blank key, but when inserted in the keystone will take you to your own empty dimension to build as you please."]
+			id: "03C4EA06B12B1656"
+			rewards: [{
+				id: "1AD3FDA3EF5444A4"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "Personal Dimension"
+			tasks: [{
+				id: "7B8C4A7F6C6AF405"
+				item: "dimdungeons:item_blank_build_key"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"Paragliders are a form of simple air transportation. Gliding is slightly faster then walking."
+				""
+				"Uses &aenergy&r to stay afloat in the sky. "
+			]
+			id: "107C7C1F5CADD79E"
+			rewards: [{
+				id: "1AC7296C76CD5F9F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Catch the wind"
+			tasks: [{
+				id: "44B7D229A5F0DA91"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			title: "Paraglider"
+			x: -23.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5F54BFA919A9265B"]
+			description: ["A &6Lectern&r can be used to combine Manuscripts and the Bestiary, to unlock new chapters. The Bestiary goes in the left slot, and Manuscripts go in the right slot. The chapter options are on the right, to get them, click on the chapter you would like to have."]
+			id: "00CCA9A34E314582"
+			rewards: [{
+				count: 3
+				id: "5F3E6E7FBB2DCDD1"
+				item: "iceandfire:manuscript"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1584A86F782C8BE3"
+				item: "iceandfire:lectern"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["0A6D8A117DACC36B"]
+			description: ["By putting a Bestiary in a lectern you can paste new pages into it with manuscripts to unlock knowledge of monsters."]
+			id: "5F54BFA919A9265B"
+			rewards: [{
+				count: 3
+				id: "3ECA39C956698FC6"
+				item: "iceandfire:manuscript"
+				type: "item"
+			}]
+			subtitle: "Knowledge of monsters"
+			tasks: [{
+				id: "32B50B49CA6E5D3F"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["05DF598DEBADABC3"]
+			description: ["You can find manuscripts in chests around the world. These are used to uncover knowledge of monsters and beasts in the 'Bestiary'."]
+			id: "0A6D8A117DACC36B"
+			rewards: [{
+				count: 3
+				id: "5B9B991735FED2BB"
+				item: "iceandfire:manuscript"
+				type: "item"
+			}]
+			subtitle: "Pages of a book"
+			tasks: [{
+				consume_items: false
+				id: "46ABA342D99C4D1E"
+				item: "iceandfire:manuscript"
+				type: "item"
+			}]
+			title: "Old Manuscripts"
+			x: -18.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"The world in this modpack is &cdangerous&r. While you might feel weak at times, don't give up. "
+				""
+				"There are plenty of ways to get stronger. Explore to find better equipment, venture into different dimensions, and invest in your builds and magic."
+				""
+				"Check the &9Bosses and Skill Points&r chapter to understand the &3difficulty of each boss&r. Some bosses are end-game and require more power. &aRaising your health&r and &6having good equipment is essential.&r"
+				""
+				"&cBeyond 1200 blocks, dangerous mobs from&r &bIce&r and &cFire&r, such as dragon roosts and sea serpents, will spawn anywhere. Proceed at your own risk."
+				""
+				"Starting from the &n&6third night&r&r, a dangerous mob, the &0Stalker&r, will appear. You’ll hear a characteristic sound and see a message in the chat when it spawns. "
+				""
+				"The &0Lifestealer&r undead can appear from the &n&6tenth night&r&r. It hides under a cloak, notices players from 100 blocks away, and starts following from 30 blocks. After attacking or taking enough damage, it reveals its true form with a scream."
+			]
+			id: "05DF598DEBADABC3"
+			rewards: [{
+				count: 3
+				id: "4DB3D90257676F99"
+				item: "iceandfire:manuscript"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Your nightmares will follow you..."
+			tasks: [{
+				id: "10C9EC641579B9FA"
+				title: "&l&aI'm not a coward, I'll beat them all"
+				type: "checkmark"
+			}]
+			title: "&l&4The world is dangerous"
+			x: -17.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"You start your journey with &c8 hearts&r, but you can increase your life through skill points or by using &cHeart Containers&r and &aStamina Vessels&r. "
+				""
+				"These items can expand your hearts and stamina wheel, respectively. "
+				""
+				"To get them, you'll need to interact with a &bGoddess Statue&r, usually found when you visit a village."
+				""
+				"&e&l&nSpirit Orbs&r&r&r can be found in chests, but they're quite rare."
+			]
+			icon: "paraglider:spirit_orb"
+			id: "7436ABDD8951C18F"
+			rewards: [{
+				count: 4
+				id: "434657B780CD3573"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			subtitle: "Its like zelda"
+			tasks: [{
+				id: "122AA19F6DAFA8EF"
+				title: "Click to Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Why I have less hearts?"
+			x: -35.9d
+			y: 18.0d
+		}
+		{
+			dependencies: ["05DF598DEBADABC3"]
+			description: [
+				"&eAlex's Caves&r adds in a unique variety of new underground cave biomes with many new interesting mobs and mechanics to play around with. "
+				""
+				"To get started you'll need to find an underground cabin to acquire some cave tablets, as well as a spelunkers table."
+			]
+			icon: "alexscaves:cave_book"
+			id: "3A5D5C4FBFAFB109"
+			rewards: [
+				{
+					id: "7EA0167D03EE2A7C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "312039C027C5E676"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
+			]
+			subtitle: "New Cave Biomes"
+			tasks: [{
+				id: "1C23290C04C44FB9"
+				structure: "alexscaves:underground_cabin"
+				type: "structure"
+			}]
+			title: "Alex's Caves"
+			x: -17.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3A5D5C4FBFAFB109"]
+			description: [
+				"By placing a piece of&2 paper&r and a &ecave tablet&r into the spelunkers table, you can play a minigame to unlock some of the secrets the tablet holds."
+				""
+				"Try to guess the correct possession of the hidden word using the context of previous guesses. "
+				""
+				"There are only five guesses per level in this minigame, and three levels required to produce a cave codex. "
+				""
+				"If any level is failed, or the process of translation is interrupted, the cave tablet will be destroyed."
+			]
+			id: "26D860BF5D02586C"
+			rewards: [{
+				id: "017B47440E473808"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Cave Research"
+			tasks: [{
+				id: "2AEBADAF7BD0BDDE"
+				item: "alexscaves:spelunkery_table"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["26D860BF5D02586C"]
+			description: [
+				"Once a &6Cave Codex&r is researched, it can be used for two purposes. "
+				""
+				"1-> Simply using the item in your main hand will unlock more info pertaining to the codices' biome in the Cave Compendium."
+				""
+				""
+				"2-> They can be crafted into &6Cave Biome Maps.&r"
+			]
+			id: "2F7BB458FD5AFF19"
+			rewards: [{
+				id: "56F6A58BE40B3D37"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "&6🔓 Unlocks Alex's caves chapter&r"
+			tasks: [{
+				id: "37EFDE1A242FC6ED"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			title: "Research any cave codex"
+			x: -17.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"This pack includes &63 shader packs&r to enhance your gameplay visuals."
+				""
+				"You can select the shader of your preference by going through &aOptions -> Video Settings -> Shader Packs.&r"
+				""
+				"For the best visuals, select &bComplementary Reimagined&r."
+				""
+				"Our recommendation for high performance and a style close to vanilla is &bSildur's Enhanced Default,&r although the maximum shadow distance is 7."
+				"If Create contraptions are glitching, go to your shader settings and turn fog off."
+				""
+				"For a more balanced approach between graphics and performance, select &bMake Up Ultra Fast&r."
+				""
+				"Additionally, you can adjust your video settings to increase the render distance, enhancing your overall visual experience."
+			]
+			icon: "create:goggles"
+			id: "6D382620BBC1E6C0"
+			rewards: [{
+				id: "1F572C2BD14B7F1B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1D986DC9FFE37C6A"
+				title: "Click to Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Shaders"
+			x: -34.9d
+			y: 20.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["When right clicked it picks a &drandom block&r from your hotbar and places it down."]
+			id: "1E53659639A295D6"
+			rewards: [{
+				id: "326E60974EEBA815"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52B0934C4AB8F731"
+				item: "quark:trowel"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"Find something cool in your world, or just want to take a picture to remember the occasion? Take a picture with the &bCamera&r!"
+				""
+				"Images can be taken by right-clicking a camera. This brings you to the viewfinder of the camera. Right-clicking again takes an image of the perspective you are currently seeing. Images are saved with the same ratio as your Minecraft window."
+				""
+				""
+				"&6The camera&r is able to apply filters to the image. By sneak + right-clicking the camera a GUI opens where the filter can be chosen."
+				""
+				"&6The album&r can hold up to 54 images. You can add images by sneak + right-clicking the album. You can view the contained images by right-clicking the album. By scrolling up and down or pressing the arrow-up/down key, you can switch the currently viewed image."
+				""
+				"&6The image frame&r allows you to place your image in the world. Just place the image frame item on a wall. Sneak + right-clicking the image frame opens a GUI that allows you to resize the frame. Just clicking the resize buttons enlarges the frame in the given direction. If you sneak and click the button the frame will be downsize the frame in that direction. To display an image in the frame right-click it with the chosen image in hand. To remove it from the frame just right-click the frame again."
+			]
+			id: "6205128D8BD81FE0"
+			rewards: [{
+				id: "2C5C933092E25AB9"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Slime!!!!"
+			tasks: [{
+				id: "6A97508FBE37DBEE"
+				item: "camera:camera"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["640C3588E6BA8DF2"]
+			description: ["The &aTarget Dummy&f is pretty self explanatory. You can use this to test how much damage your weapons deal."]
+			id: "77E129C820E2C154"
+			rewards: [{
+				id: "4A6C92FC3FF626ED"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "He's not that dumb..."
+			tasks: [{
+				id: "03C5427638F1124F"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Thanks to a mod, the &aTotem of Undying&f can now be equipped in a &etrinket slot&f. This means you can keep your shield in your offhand and not fear death as long as it's equipped."]
+			id: "68623EA6ABCAE7C7"
+			rewards: [{
+				id: "2FF3E6689E3FAA2F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Wearable invulnerability"
+			tasks: [{
+				id: "28D420D2D62375AD"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["2F1F1047E8A734EC"]
+			description: [
+				"&cEmpowered Remnants&r are created by melting down unique weapons."
+				""
+				"They are used in the creation of &9Runefused Gems&r, and &6Netherfused Gems&r."
+			]
+			id: "3D8B2D9B4488D1C4"
+			rewards: [
+				{
+					id: "3044588ADA2C34F9"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					id: "79F86FB1A5010108"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "06287D4183F54125"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "A Pain to Make..."
+			tasks: [{
+				id: "49E5F5147F07C67B"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["3D8B2D9B4488D1C4"]
+			description: [
+				"In order to make it, combine a &cEmpowered Remnant&r with a &6Netherite Ingot&r in a Smithing Table."
+				""
+				"Click to identify which power you have rolled."
+			]
+			id: "374A73FE0C12C105"
+			rewards: [
+				{
+					id: "6C6877A0C6DC69B4"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0A8AA9F560CC2350"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "0EB8AE0F42606004"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Made with Ash."
+			tasks: [{
+				id: "5FA9B1D918EC6529"
+				item: {
+					Count: 1
+					id: "simplyswords:netherfused_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["3D8B2D9B4488D1C4"]
+			description: [
+				"To make it, combine a &bRunic Tablet&r with a &cEmpowered Remnant&r in a Smithing Table."
+				""
+				"Click to identify which power you have rolled."
+			]
+			id: "4E2CDE150137F5E9"
+			rewards: [
+				{
+					id: "532BB8E9D9518DEA"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "03BCC3F031B22DE0"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "412AC6A306F89E98"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Made with &klol&r"
+			tasks: [{
+				id: "5EC926FCEC96ADAC"
+				item: {
+					Count: 1
+					id: "simplyswords:runefused_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"Most of the modded keybind are unbided."
+				""
+				"Go to options, controls and bind whatever key you need on your desired button."
+				""
+				"This is to prevent annoying cases were some mods uses the same button."
+				""
+				"You can also show off your items to chat using&3 shift + T&r"
+			]
+			icon: "supplementaries:key"
+			id: "660C3D5CB407247F"
+			tasks: [{
+				id: "6FD0241035AC0F91"
+				type: "checkmark"
+			}]
+			title: "Keybinds"
+			x: -33.9d
+			y: 20.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"A quick way to switch between tools."
+				""
+				"Upgrade with belt pouches in an anvil to increase capacity."
+				""
+				"Default key is&6 \"J\"&r to open."
+			]
+			id: "15E1385A52B7A632"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 2
+					id: "1C0F32826DE96674"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+				{
+					id: "03BEAC42E06086CD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "20611962F187E5FB"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: [
+				"The mod &9Construction Wand&r adds helpful wands that assist in building."
+				""
+				"When you right-click on a face of a block with the wand, it will extend that face out as long as you have the blocks in your inventory."
+				""
+				"You can upgrade your wand with additional &4cores&r, allowing you to conjure blocks in mid-air or destroy many blocks very quickly."
+				""
+				"The wands come in four tiers:"
+				""
+				"&l&7Stone&r:&r 9 blocks"
+				"&l&fIron&r:&r 27 blocks"
+				"&l&bDiamond&r:&r 128 blocks"
+				"&l&dInfinity&r:&r 1027 blocks"
+			]
+			id: "0D05759E84652BAA"
+			rewards: [{
+				id: "5A4C954FF624C154"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "060CEA85A1BF9C84"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "constructionwand:stone_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:iron_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:diamond_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:infinity_wand"
+								tag: {
+									wand_options: { }
+								}
+							}
+						]
+					}
+				}
+				title: "Construction Wands"
+				type: "item"
+			}]
+			title: "Master the Infinity Wands"
+			x: -11.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["06267D7C266DE215"]
+			description: [
+				"When placed, the &9Mega Torch&r prevents all hostile mobs from naturally spawning in a &d96 block radius&r."
+				""
+				"Great for stopping hostile spawns in dark parts of your base!"
+				""
+				"You can also see your light levels by &3pressing F7&r"
+			]
+			id: "478DE12D3EF8C22A"
+			rewards: [
+				{
+					id: "50E030E9EBB5E5CF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 32
+					id: "1D06972FAEF3D196"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BF67A3FC299BCB1"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			title: "Preventing Mob Spawns"
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["261651FB7B600587"]
+			description: [
+				"Whether you are an experienced modded player, or a complete noob to MC, everyone has to make a &2Wooden Pickaxe&r."
+				""
+				"Pickaxes allow you to break most stone and metal blocks. This wooden one won't last long, so make sure to gather some &3Cobblestone&r with it!"
+			]
+			id: "7EF948B39FBEA377"
+			rewards: [{
+				id: "4A44E1F48CD46585"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "703514C592E5C630"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Our First Pick"
+			x: -22.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["05DF598DEBADABC3"]
+			description: [
+				"With our Wooden Pickaxe, stone shouldn't be a problem to break!"
+				""
+				"You'll also want to upgrade your pickaxe to stone to mine better ores like &bIron&r!"
+			]
+			icon: "minecraft:furnace"
+			id: "05B32DE12868C6DE"
+			rewards: [{
+				id: "09C2CCAD1F30005D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					count: 16L
+					icon: "minecraft:cobblestone"
+					id: "6509C61E10237C4F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:cobblestone"
+						}
+					}
+					title: "Any Cobblestone"
+					type: "item"
+				}
+				{
+					id: "2EF81FCBEE5CCC21"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "Grab some stone"
+			x: -12.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: ["I'm going to assume you've been out mining, right? It is &4Minecraft&r after all."]
+			id: "28B245505F91D21C"
+			rewards: [{
+				id: "73FD6CD9F16B0FDC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5B6E37E280F23809"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "3FE10EF0A2154395"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			title: "Metals"
+			x: -7.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"The next step of progression is to make an Iron Pickaxe."
+				""
+				"This pickaxe can mine some of the rarer ores in the game, including &3Diamond!&r"
+			]
+			id: "7FA5CDC0F616D2C5"
+			rewards: [{
+				id: "6E032A8E6435C192"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "567D18852F5AB585"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "An &aIron&r Pick"
+			x: -2.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3D93780758BA7194"]
+			description: [
+				"&2Archaeology&r is a new feature in Minecraft v1.20 that allows players to find items inside Suspicious blocks like Sand and Gravel. These blocks can be found in structures such as Warm Ocean Ruins, Desert Pyramids, Desert Wells."
+				""
+				"To uncover items from Suspicious blocks, create a Brush to gently remove the block and reveal the item. Use the &bArchaeology Table&r to analyze Unidentified Artifacts with any type of brush."
+				""
+				"Craft the Archaeology Table using 4 Wood Planks, a Brush, and Artifact Shards. It outputs one of three different Identified Artifacts, each with unique special powers."
+				""
+				"You can also find &6artifacts&r using archaeology."
+			]
+			hide_until_deps_complete: false
+			id: "0C4974DE21CEDF4B"
+			rewards: [{
+				id: "2029C4079E097488"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "0C5834C0899BEF2B"
+					item: {
+						Count: 1
+						id: "minecraft:brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39B21E1D56517ADD"
+					item: "betterarcheology:archeology_table"
+					type: "item"
+				}
+			]
+			title: "&2Archaeology&r!"
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7FA5CDC0F616D2C5"]
+			description: [
+				"&aSmithing Templates&r are brand new items used to add trims to your armor! This can be done in Smithing Tables."
+				""
+				"While they do have a recipe, most of the trims are rare finds in from loot chests or archaeology digs. Once you find one, you can dupe the Template by using the recipe to create more!"
+			]
+			id: "65B47B2E1AA75ED3"
+			rewards: [{
+				id: "48CCA5D27575C069"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "760E2C0115B25B09"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:trim_templates"
+					}
+				}
+				title: "Trim Templates"
+				type: "item"
+			}]
+			title: "&dArmor Trims&r"
+			x: -3.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7FA5CDC0F616D2C5"]
+			description: [
+				"To find this egg, you'll need to brush away &aSuspicious Sand&r in Warm Ocean Ruins."
+				""
+				"You can place the egg into the world and it will slowly hatch into a &dSnifflet&r. This takes around 20 minutes to hatch normally, but can be placed on a Moss block to double the hatch speed, taking only 10 minutes to hatch."
+				""
+				"The Snifflet will eventually grow into an adult &dSniffer&r that can sniff up items like &2Torchflower Seeds&r or &2Pitcher Pods&r when they wander over blocks they can dig in."
+				""
+				"You can breed 2 adult Sniffers by using Torchflowers."
+			]
+			id: "77EEE919C23E18B1"
+			rewards: [{
+				id: "60B1B82C0EFA564B"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "2DC4927BB3208BB3"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
+			title: "&aThe&r &5Sniffer&r"
+			x: -1.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["04D09899362AFC7A"]
+			description: ["&bDiamonds&r are one of the&n best materials&r to use for tool crafting, but also allows you to visit new dimensions like the Nether!"]
+			id: "06267D7C266DE215"
+			rewards: [{
+				id: "5CCB3BCA3CDDC471"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "07A73C61881D36D0"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "We've Struck &bDiamonds&r!"
+			x: 5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["123D70CA4959F172"]
+			description: [
+				"With a Diamond tier pickaxe, you'll be able to mine &dObsidian&r. Obsidian can be used to create a portal to the &cNether&r."
+				""
+				"The portal frame can be many different sizes, but most go with the basic \"Door\" shape. This is a hollow 4x5 shape using a minimum of 10 Obsidian. You don't have to use Obsidian for the corners, just the portal frame itself!"
+			]
+			id: "72A5DEFDD0F3470D"
+			min_width: 300
+			rewards: [{
+				id: "2DA219D2C2C27D52"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					count: 10L
+					id: "50E50067EA492EBE"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
+					id: "726DAD7F99D8DE4E"
+					title: "Enter The Nether"
+					type: "advancement"
+				}
+			]
+			title: "&cTo The Nether&r!"
+			x: 3.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["06267D7C266DE215"]
+			description: [
+				"Begin an exciting journey beyond the Overworld."
+				""
+				"Step through mystical gateways to discover new dimensions with unique resources and creatures."
+				""
+				"With courage and curiosity, unlock the secrets of these realms."
+				""
+				"Your adventure awaits—&ewill you become a true dimension explorer?&r"
+			]
+			id: "123D70CA4959F172"
+			rewards: [{
+				id: "74501D93CD967375"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60FB6758FF913425"
+				title: "&l&6Unlocks Dimensions Chapters"
+				type: "checkmark"
+			}]
+			title: "&c&lI want to explore new dimensions&r&r"
+			x: 5.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["06267D7C266DE215"]
+			description: [
+				"{ \"text\": \"The Black Market\", \"underlined\": \"true\", \"color\": \"black\", \"bold\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"21FB9D855FA9D2DF\" } } "
+				"is the ultimate testing ground for your ingenious Create automations. Here, you can exchange the\"  fruits of your mechanical mastery for unique items &cnot found anywhere else. "
+				""
+				"You can use a &9task screen&r and a &9task screen configurator&r to automate."
+				""
+				"You can also buy stuff using &6Create currency.&r "
+				""
+				"Currency can be earned &5via quests&r or by &5killing bosses&r. "
+				""
+				"Here is some money to get you started, so spend it wisely."
+				""
+				"{@pagebreak}"
+				"There's also a rumor of a"
+				""
+				"{ \"text\": \"Space Captain [click me!]\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4D995A3D7DC968C7\" } }"
+				""
+				"who is wanting some help!"
+			]
+			id: "21FB9D855FA9D2DF"
+			rewards: [
+				{
+					count: 2
+					id: "50F4EC485372FEF2"
+					item: "numismatics:cog"
+					title: "Your allowance"
+					type: "item"
+				}
+				{
+					id: "3AABBBEC1097C9A2"
+					item: "numismatics:bank_terminal"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "0D128D27E6FC641D"
+				title: "&l&6Unlock Chapter: The Black Market"
+				type: "checkmark"
+			}]
+			title: "&0&l The Black Market"
+			x: 10.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["6613D41573B7F0B9"]
+			description: ["Stoves are a good-looking and very useful campfire alternative. Together with a Cooking Pot, it can help you prepare the most delicious meals in the game."]
+			id: "327AE18669E4B9F0"
+			rewards: [{
+				count: 5
+				id: "2FA95BED56ECC377"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3D9D2F824D60EAC1"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			title: "The Joy of Cooking"
+			x: -13.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["7FA5CDC0F616D2C5"]
+			description: [
+				"Gain access to powerful magical knowledge and skills. By completing this quest, you'll unlock the following magic chapters:"
+				""
+				"&d-> Ars Noveau&r"
+				""
+				"&6-> Forbidden Arcanus&r"
+				""
+				"&b-> Irons and Spells Books&r"
+				""
+				"Embark on a journey into the mystical arts and discover the secrets of these powerful mods."
+			]
+			id: "04D09899362AFC7A"
+			rewards: [{
+				id: "618495DCE46CFF23"
+				item: "ars_nouveau:greater_experience_gem"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Magic? Spells? YESSS PLEASE!!!!!"
+			tasks: [{
+				id: "4E1D5074A8E3A8D2"
+				title: "&l&6Unlock Magic Chapters"
+				type: "checkmark"
+			}]
+			title: "&dUnlocking the Arcane&r "
+			x: 1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"Combat mechanics were altered by the &6Better Combat&r, &6Dodge Roll&r, &6Shield overhaul&r and&6 Shield Expansion&r mod."
+				""
+				"&c-> Dodge Roll&r"
+				"Press &6\"R\"&r (default key) to roll. You can roll into any direction you are heading. This is crucial to dodge attacks during boss fights!"
+				""
+				"The combat roll ability has 10 seconds cooldown by default."
+				""
+				"Cooldown of your combat roll ability can be seen on the main UI."
+				""
+				"&c-> Better Combat&r"
+				"Weapons each weapon has its own attack animation and time, comsecutive attacks will perform combos and you can hold attakc button to keep attacking continuosly."
+				""
+				"&c-> Shield Overhaul&r"
+				"Shields have new mechanics like bashing: Attack while blocking to perform a shield bash. This will stun the target for 1 second, unless it's a boss"
+				""
+				"&c-> Shield Expansion&r"
+				"The mod adds traditional tiers to shields and introduces two new mechanics, Off-Guard Cooldown and Parrying!"
+			]
+			id: "640C3588E6BA8DF2"
+			rewards: [{
+				id: "71C3D2FFBD888B63"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "66A18BC1D70CC3C1"
+				title: "Yes, I'm ready to fight!"
+				type: "checkmark"
+			}]
+			title: "&6New Combat Mechanics"
+			x: -22.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			dependency_requirement: "one_completed"
+			description: [
+				"You're able to claim chunks to protect your base(s). "
+				""
+				"Open your world map with the &6\"M\"&r key and click on the map icon that is located on the top left corner that says &bClaimed Chunks&r."
+				""
+				"Here you can freely claim available chunks by just drawing on the map with your mouse."
+				""
+				"To unclaim a chunk, you do the opposite, just draw by holding right click instead."
+				""
+				"For force loading chunks hold &a'leftshift'&r"
+			]
+			icon: "twilightforest:ore_map"
+			id: "2E3B821A8A402B3E"
+			tasks: [{
+				id: "5A0FD6D40314D526"
+				title: "Click to Acknowledge"
+				type: "checkmark"
+			}]
+			title: "&6Multiplayer:&r Chunk Claiming"
+			x: -34.9d
+			y: 16.0d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: [
+				"The Abacus can be used to count the distance between two blocks in a much faster and efficient way."
+				""
+				"By simply right clicking on one block and then hovering over the other block, it will give you the distance between those two."
+				""
+				"This tool has a range of 48 blocks."
+			]
+			id: "714B3994BC2C04CB"
+			rewards: [{
+				id: "0A2EF6FF86549F7A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3AE7928601517133"
+				item: "quark:abacus"
+				type: "item"
+			}]
+			title: "The Abacus"
+			x: -12.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["05DF598DEBADABC3"]
+			description: [
+				""
+				"{image:kubejs:textures/vent.png width:350 height:200 align:1}"
+				""
+				"&6Molten Vents&r is a mod which adds a renewable source of the orestones."
+				""
+				"&nSave it your map you will need it later and they are rare to find.&r "
+			]
+			id: "67145CE26EFAD16D"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "2705180D70FA1C18"
+				title: "&l&6Unlock Chapter: Renewable ores"
+				type: "checkmark"
+			}]
+			title: "&6Keep an eye out for this structure!"
+			x: -16.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["05DF598DEBADABC3"]
+			description: [
+				"During your adventures, you'll not only find a wealth of artifacts and Rings of Ascension but also unique trophies that drops each mob you encounter at very low chance. "
+				""
+				"If you manage to gather and complete all the items from each category, you'll be rewarded with a &6secret prize.&r Keep a keen eye out and collect them all to uncover the hidden rewards awaiting you!"
+				""
+				"&c-> Artifacts&r"
+				"&6&lArtifacts&r&r is a mod which aims to make exploration more rewarding by adding various powerful items that cannot be crafted."
+				""
+				"The items added by this mod can be found in chests in vanilla structures."
+				""
+				"All artifacts only have a few chests in which they can be found, so go out and explore!"
+				""
+				""
+				"&c-> Rings of Ascension&r"
+				"&6Rings of Ascension&r is a mod that uses the Curios API to add 20+ new rings to your minecraft. Each ring has its own special effect that is activated when the ring is equipped."
+				""
+				"Rings from this mod don't have a recipe and can only be found in specific locations."
+			]
+			id: "0D0118FCEFE0A8E2"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "3F0F062B13DBD93A"
+				title: "&l&6Unlock Chapter: Collectibles"
+				type: "checkmark"
+			}]
+			title: "&2For those you want to 100%"
+			x: -18.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: [
+				"Chalk allow you to drawk marks for easier navigation in the caves or structures it comes in all colors."
+				""
+				"You can also draw a couple of different symbols using &6Right-click while sneaking &r to open a menu where you can choose desired symbol to draw. Some symbols can be unlocked by completing advancements."
+				""
+				"Marks can be made glowing by appying Glowstone Dust or Glow Ink Sac to Them."
+				""
+				"&eChalk Box&r is a convenient way to store and use you chalks. "
+				"  - It can be opened by using it while not looking at any block or right-clicking in the GUI."
+				"  - Mark whill be drawn with leftmost chalk in order sneaking"
+				"  - You can draw glowing mark with Chalk Box by adding glowing items in a spacial slot."
+			]
+			id: "419327E6573538F7"
+			rewards: [{
+				count: 2
+				id: "2A7D00993B48E84D"
+				item: {
+					Count: 1
+					id: "chalk:yellow_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6FF668A7502BD876"
+					item: {
+						Count: 1
+						id: "chalk:chalk_box"
+						tag: {
+							Items: [
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "367973CDFE4547F1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:chalks"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Chalk"
+			x: -13.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"Your feedback and assistance are invaluable to improving this modpack."
+				""
+				"For suggestions, bug reports, or if you're interested in contributing, please reach out to us on Discord. "
+				""
+				"Your support helps us make this modpack better for everyone!"
+				""
+				"https://discord.gg/yRAmua5keG"
+			]
+			icon: "createdeco:decal_warning"
+			id: "5525E70F7FBDBD92"
+			rewards: [{
+				id: "7F4AC2523DDD270D"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CBC9A977ED7A39C"
+				title: "Sure, I can Help!"
+				type: "checkmark"
+			}]
+			title: "&6Your feedback helps :)"
+			x: -32.9d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"&6Comforts&r is a mod that adds sleeping bags and hammocks to Minecraft. These items can be used just like beds except they do not set a player's spawn point on use, safely preserving a player's spawn point at their home base."
+				""
+				"&2Hammocks&r are like an inverse bed, turning day to night."
+			]
+			id: "6BF73E8BF5844527"
+			rewards: [{
+				id: "35AE171E2836FC71"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "29D80872F625649F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a sleeping bag"
+			x: -21.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"&6The Tome&r solves a single problem: managing all of your guidebooks."
+				""
+				"The Tome allows many books to be combined into a single item and enables them to be retrieved when needed."
+				""
+				""
+				"&nRight-click&r while holding Tome to open the book selection screen"
+				""
+				"&nShift + Right-click&r while holding Tome to convert to the book for the block you're looking at"
+				""
+				"&nLeft-click&r on air to revert a book back into the Tome"
+				""
+				"&nShift + Q&r while holding the converted tome to eject a book from it"
+			]
+			id: "715415DD1D493D8E"
+			rewards: [{
+				id: "76ACB3A825340239"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4CD4529B4670AF0A"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": { }
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			dependency_requirement: "one_completed"
+			description: [
+				"In this modpack, you can&a earn currency&r by completing certain quests, defeating bosses, and participating in Black Market challenges."
+				""
+				"&5Understanding Currency in the Game:&r"
+				""
+				"• &6Spur:&r The most basic coin, similar to cents."
+				"• &6Cog:&r A higher value coin, similar to dollars. One Cog is worth 64 Spurs."
+				""
+				"Different coins are worth different amounts of Spurs and Cogs. You can see the exact value by hovering over each coin in your inventory."
+			]
+			icon: "numismatics:cog"
+			id: "567ED608748850A8"
+			rewards: [{
+				count: 10
+				id: "2892B66CBC8A26C7"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65A099F8209103AE"
+				title: "Click to Acknowledge"
+				type: "checkmark"
+			}]
+			title: "&6Mastering Currency"
+			x: -32.9d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0D05759E84652BAA"]
+			description: ["Destroy blocks (excluding tile entities) on the side facing you. The maximum number of blocks destroyed depends on the wand tier. Restrictions work just like with the Construction core. Destroyed blocks disappear into the void, but you can use the undo feature if you've made a mistake."]
+			id: "234E978A14BA9630"
+			rewards: [{
+				count: 100
+				id: "61F85BD409F02AEA"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C649008D8F2D571"
+				item: "constructionwand:core_destruction"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0D05759E84652BAA"]
+			description: ["Place a block on the opposite side of the block (or row of blocks) you are facing. The maximum distance depends on the wand tier. Right-click empty space to place a block in midair, similar to angel blocks (hence the name). To do this, you'll need to have the block you want to place in your offhand. You can't place a block in midair if you've fallen more than 10 blocks deep."]
+			id: "5B402687731540B8"
+			rewards: [{
+				count: 100
+				id: "0BF101044E02CCE4"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000B9092087FFFF"
+				item: "constructionwand:core_angel"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0C4974DE21CEDF4B"]
+			description: ["Using your brush, you can brush away the dirt to find the fossils hidden underneath. "]
+			id: "2A6FF2B5860DA901"
+			rewards: [{
+				count: 2
+				id: "539773C01850F296"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1744774CD4C3B85D"
+				item: "betterarcheology:fossiliferous_dirt"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0C4974DE21CEDF4B"]
+			description: ["Using your brush, you can brush away the loose sand to find the fossils hidden underneath. "]
+			id: "28774B25CD320D9A"
+			rewards: [{
+				count: 2
+				id: "33DE88AABDF846E0"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "35496C9EA7213E5A"
+				item: "betterarcheology:suspicious_red_sand"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1FF26858DB8E88F8"]
+			description: ["Perhaps you can&b put these back together&r, or maybe make&o &6something else&r with it."]
+			id: "3D93780758BA7194"
+			rewards: [{
+				id: "5C068927E5D6A95C"
+				item: "betterarcheology:artifact_shards"
+				type: "item"
+			}]
+			subtitle: "Find an Artifact Shard."
+			tasks: [{
+				advancement: "betterarcheology:artifact_shards"
+				criterion: ""
+				id: "363673AB8FDB53A7"
+				type: "advancement"
+			}]
+			title: "&8Shattered&r Knowledge"
+			x: 4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0C4974DE21CEDF4B"]
+			description: ["Craft an Unidentified Artifact from Shards. Now the identifying begins!"]
+			id: "3570097E250F33B0"
+			rewards: [{
+				count: 2
+				id: "0A387743D6AD3654"
+				item: "betterarcheology:artifact_shards"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "betterarcheology:unidentified_artifact"
+				criterion: ""
+				id: "63314573E77F41FE"
+				type: "advancement"
+			}]
+			title: "It's All Coming Together"
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["06267D7C266DE215"]
+			description: ["Obtain loot by breaking a vase."]
+			id: "1FF26858DB8E88F8"
+			rewards: [{
+				id: "2BBC5A13DD6DD333"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Who broke my vase?"
+			tasks: [{
+				advancement: "betterarcheology:loot_vase_broken"
+				criterion: ""
+				id: "0C2CD08A3CAF07C5"
+				type: "advancement"
+			}]
+			title: "Smashing"
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7FA5CDC0F616D2C5"]
+			description: [
+				"Bee Nests house wild Bees! They can't be moved but produce &cHoneycomb&r, which can be used to craft a &eBeehive.&r"
+				""
+				"To safely shear a full hive or nest, light a Campfire underneath. Otherwise, Bees will get angry."
+				""
+				"Carpet can be placed over Campfires to prevent fire damage."
+			]
+			id: "1B78054E61C50110"
+			rewards: [
+				{
+					count: 3
+					id: "2FC00B278A03AEEF"
+					item: "minecraft:moss_carpet"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "12EA56E85E32FFB9"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "64C20035917B78DF"
+					item: {
+						Count: 1
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A862F494285F4E0"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find a Bee Nest"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:bee_nest"
+				id: "5DAB369E1B4C4E83"
+				observe_type: 0
+				timer: 0L
+				title: "Find a Bee Nest"
+				to_observe: "minecraft:bee_nest"
+				type: "observation"
+			}]
+			title: "Bee Nests"
+			x: -2.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["05DF598DEBADABC3"]
+			description: [
+				"&bAncient Cities&r are full of hostile, vibration-sensing creatures and rare loot."
+				""
+				"&9Sculk Sensors&r detect vibrations, including walking and interacting with blocks and items."
+				""
+				"They trigger&3 Sculk Shriekers&r, which spawn &2Wardens.&r"
+				""
+				"&2Wardens&r are large, almost unkillable monsters that can blind players and deal high damage."
+				""
+				"However, their vision is based on vibrations - &bSnowballs&r and other items can be used to distract them."
+			]
+			id: "33D47E0078148427"
+			rewards: [{
+				count: 64
+				id: "03FA42DF39D621C4"
+				item: "minecraft:snowball"
+				type: "item"
+			}]
+			subtitle: "Find an Ancient City"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:reinforced_deepslate"
+				id: "10EBD8BB15C49D0D"
+				structure: "minecraft:ancient_city"
+				title: "Find an Ancient City"
+				type: "structure"
+			}]
+			title: "Forgotten Depths"
+			x: -15.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"&dAmethyst&r grows in large Geodes lined with Basalt and Calcite underground."
+				""
+				"To get &5Amethyst Shards&r, look for Budding Amethyst Blocks, which can't be removed. "
+				""
+				"Instead, focus on the Amethyst Clusters that grow on them. Only the Clusters can be renewably broken to obtain Amethyst Shards."
+			]
+			id: "77CB99E12D41EFF3"
+			rewards: [{
+				id: "7CA27DA96BC38B17"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Find a Geode"
+			tasks: [{
+				id: "4300DC27A2F815BA"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			title: "Amethyst"
+			x: -6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["72A5DEFDD0F3470D"]
+			description: ["A &eCompass&r can be bound to a &3Lodestones&r with &7[&rRight-Click&7]&r, causing the needle to point towards it when in the same dimension."]
+			id: "114173896E5DF62C"
+			rewards: [{
+				id: "2BF51E7FD65FFB62"
+				item: "minecraft:compass"
+				type: "item"
+			}]
+			subtitle: "Find a Lodestone"
+			tasks: [{
+				id: "6179986E2175103A"
+				item: "minecraft:lodestone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["72A5DEFDD0F3470D"]
+			description: [
+				"Did you know you can use the &cNether&r to travel between two points in the &aOverworld&r at a much shorter distance?"
+				""
+				"Placing two portals with a distance of just 10 blocks between them in the &cNether&r gives you a distance of 80 blocks in the &aOverworld&r between portals."
+				""
+				"This can be used to make trains travel vast distances in the &aOverworld&r by covering a short distance in the &cNether&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ad_astra:textures/gui/space_station_icon.png"
+				}
+			}
+			id: "7FF84508B3E0168F"
+			rewards: [{
+				id: "32470E18A82CE777"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/fast_travel"
+				criterion: ""
+				id: "06EBC1F5F45B31C1"
+				type: "advancement"
+			}]
+			title: "Subspace Bubble"
+			x: 3.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["114173896E5DF62C"]
+			description: [
+				"When crafted, a respawn anchor has no (zero) charge and can't yet be used until charged. Using a glowstone block (not glowstone dust) on it adds a charge. The anchor accepts up to 4 charges, and the charge level is indicated by a dial on the side of the block"
+				""
+				"The first charge makes the respawn anchor glow with a light level of 3. Each glowstone after the first increases the light level by 4, up to a maximum of 15."
+				""
+				""
+				"{@pagebreak}"
+				"&6Setting respawn&r"
+				""
+				"To set the player's spawn location to the respawn anchor they must use it, just like one does with a bed. The anchor must at least have one charge, and it must be in the Nether. A confirmation appears when the player's respawn location is set. Other players can also set their spawn point to the same respawn anchor. "
+				""
+				"Each respawn uses up one charge, even if used by another player."
+				""
+				"Using a charged anchor overrides any other spawn location the player might have had, as with a bed. The respawn anchor does not serve as a backup spawn point to a missing or obstructed bed."
+				""
+				""
+				"{@pagebreak}"
+				"&6Respawn upon player death&r"
+				""
+				"Upon death, the player respawns next to the anchor, and it loses one charge."
+				""
+				"If a player's respawn anchor is destroyed, if its charges have been exhausted, or if the area around it is made unsuitable for respawning, a message appears saying \"You have no home bed or charged Respawn Anchor, or it was obstructed\", and the player respawns at the world spawn point. Returning through an end portal is not counted as a respawn against the charges."
+				""
+				""
+				"{@pagebreak}"
+				"&6Exploding&r"
+				""
+				"If the player attempts to set their spawn at a charged respawn anchor in the Overworld, the End, or custom dimensions in which they are disabled, the block explodes (and is destroyed) similar to when a bed is used in the Nether or the End. The explosion has a power of 5 and sets fire to surrounding blocks."
+				""
+				""
+				"{@pagebreak}"
+				"&6Redstone component&r"
+				""
+				"When charged, a redstone comparator gives a signal depending on the number of charges: 3 for one charge, 7 for two charges, 11 for three charges, 15 for four charges. An empty anchor gives a signal of 0."
+				""
+				"The respawn anchor can also be charged with a dispenser."
+				""
+				"The respawn anchor cannot be pushed by a piston."
+				""
+				""
+				"{@pagebreak}"
+				"&6Mobs&r"
+				""
+				"Hoglins run away from respawn anchors."
+				""
+				"&6Note blocks&r"
+				""
+				"Respawn anchors can be placed under note blocks to produce the \"bass drum\" sound."
+			]
+			id: "1FBE9C78798263F3"
+			rewards: [{
+				id: "082BDDF42689CB40"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Charge a Respawn Anchor to the maximum"
+			tasks: [{
+				id: "24BD1A343E915535"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			title: "Not Quite \"Nine\" Lives"
+			x: 0.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["4E256AAA75ECF41E"]
+			id: "6EA946616415042F"
+			rewards: [{
+				count: 10
+				id: "23C9930EB8B231C6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "You can redirect a Beacon's beam with Corundum Clusters. Make sure the last piece redirects the beam to the sky, else it won't work."
+			tasks: [{
+				id: "76D3FB5ACCBAC28F"
+				item: "quark:red_corundum_cluster"
+				type: "item"
+			}]
+			title: "Redirection"
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["72A5DEFDD0F3470D"]
+			description: [
+				"After Deaft the &0Wither&r use your &eNether Star&r, construct a &cbeacon&r and place it."
+				""
+				"Click here for wither boss information."
+				""
+				"{ \"text\": \"☞ Click here for wither boss information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1D335FA02D1F86DD\" } }"
+				""
+				""
+				"C.P - Stands for \"Current Payment\""
+				""
+				"T.P - Stands for \"Tertiary Power\""
+				""
+				"The payment items used to activate the beacon also help increase its range. &3Copper is the weakest&r, and &6netherite is the strongest&r. They contribute to the default range of the beacon."
+				""
+				""
+				"{image:kubejs:textures/payment-items-range1.png width:220 height:124 align:1}"
+			]
+			id: "4E256AAA75ECF41E"
+			rewards: [{
+				count: 10
+				id: "4D045AD5FB8F5ECD"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				advancement: "minecraft:nether/create_beacon"
+				criterion: ""
+				id: "3B9FA9DF75499BC5"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"Transform your Minecraft world with elegant and stylish decor. From modern furniture to classic pieces, add a touch of sophistication to your builds"
+				""
+				"Decorate with style and make your Minecraft creations truly stand out."
+			]
+			id: "5BAE6CD47D4ABF2D"
+			optional: true
+			rewards: [{
+				count: 20
+				id: "5A2F84E8CB0D474D"
+				item: "minecraft:scaffolding"
+				type: "item"
+			}]
+			subtitle: "Create with style"
+			tasks: [{
+				id: "1ECFA87D412A2FBB"
+				title: "I wanna learn more about the building options."
+				type: "checkmark"
+			}]
+			title: "Decoration and Building Options."
+			x: 10.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"&6Chipped&r offers a massive collection of carved Vanilla blocks, whether it is decorative glass, quilted wool for nice carpet design, or even an ominous chisled gilded blackstone. &6Chipped&r has got you covered."
+				""
+				"To start, build one of the carving stations available which function in a similar way to the Vanilla Stonecutter. "
+				""
+				"Place the apprioriate block in it and select a different output that suits your building needs."
+			]
+			id: "1CA36734A9127D0C"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "472D0F49F2E5F2DE"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The different way to add variety to the game"
+			tasks: [{
+				id: "6F633B57EC73E2E7"
+				title: "Chipped Workbenches"
+				type: "checkmark"
+			}]
+			title: "Chipped"
+			x: 10.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["1CA36734A9127D0C"]
+			id: "3C49C49214135DF2"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "27DBC4554F993C00"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The alchemy workers table."
+			tasks: [{
+				id: "2F668FDBD21E3121"
+				item: "chipped:alchemy_bench"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["1CA36734A9127D0C"]
+			id: "3740167E8E0BB8C7"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "20BEBC1C1E24508B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The stone workers table"
+			tasks: [{
+				id: "67978F1AA703074F"
+				item: "chipped:mason_table"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["1CA36734A9127D0C"]
+			id: "7D44C4326BFFE20B"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "431F2FD3C3188860"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The light workers table"
+			tasks: [{
+				id: "24FDD52AE839616E"
+				item: "chipped:tinkering_table"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["1CA36734A9127D0C"]
+			id: "50E5698F4E778BE4"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "34312D3D1BFA7B8B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The nature work table"
+			tasks: [{
+				id: "083D68DBD23C007A"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["1CA36734A9127D0C"]
+			id: "2F532BBDD35CEC3B"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "674EE41409557FC6"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The wool workers table"
+			tasks: [{
+				id: "1ED7B44020D3C81D"
+				item: "chipped:loom_table"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["1CA36734A9127D0C"]
+			id: "07D54D510008D1C0"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "1B40BD609BCB1D25"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The glass workers table"
+			tasks: [{
+				id: "5DD85C5A77B2BE4F"
+				item: "chipped:glassblower"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["1CA36734A9127D0C"]
+			id: "365ED1EB369126E0"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "4877048899627A1C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The wood workers table"
+			tasks: [{
+				id: "36B6655CC961CFFA"
+				item: "chipped:carpenters_table"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5BAE6CD47D4ABF2D"]
+			description: [
+				"Experience the &6Refurbished MrCrayfish's Furniture&r Mod, and &afurnish&r your house with hundreds of new and original decorative and functional blocks. "
+				""
+				"Jump into new gameplay mechanics with its own electricity system to power appliances and electronics, including generators, light switches, lights, and more! "
+				""
+				"Enjoy a working mail delivery system that allows you to send and receive items into your own mailbox. "
+				""
+				"It also has compatibility with Farmer's Delight: Pot and Skillet can be used on the Stove."
+				""
+				"&e@refurbished&r"
+			]
+			icon: "refurbished_furniture:pink_kitchen_sink"
+			id: "0CAD67E9B2DC3B59"
+			rewards: [{
+				id: "5695E0B24E93746C"
+				item: "refurbished_furniture:wrench"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73C3D3A6CE522B19"
+				item: "refurbished_furniture:workbench"
+				type: "item"
+			}]
+			title: "&6MrCrayfish's Refurbished"
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5BAE6CD47D4ABF2D"]
+			description: ["A selection of blocks for making small foot bridges and rail bridges."]
+			icon: "mcwbridges:oak_log_bridge_middle"
+			id: "28A783AC1938C7E7"
+			rewards: [{
+				id: "29DCC2BB22F77249"
+				item: "mcwbridges:pliers"
+				type: "item"
+			}]
+			subtitle: "Build a bridge and get over it."
+			tasks: [{
+				id: "4451ACF27A1CE6AA"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "mcwbridges"
+					}
+				}
+				title: "Macaw's Bridges"
+				type: "item"
+			}]
+			title: "Bridges"
+			x: 9.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5BAE6CD47D4ABF2D"]
+			description: [
+				"This mod adds many new lights. All 8 types, 2 types fire, Over 200 variations."
+				""
+				"You can use soul wand to turn regular fire into a soul fire with any burning brazier from this mod."
+			]
+			icon: "additional_lights:fire_pit_l_mossy_cobblestone"
+			id: "4DAA0A4DF5A7A575"
+			rewards: [{
+				id: "69826B07EDE1C0E6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5D81C1AF2999D792"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "additional_lights"
+					}
+				}
+				type: "item"
+			}]
+			title: "Additional Lights"
+			x: 11.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5BAE6CD47D4ABF2D"]
+			description: [
+				"Are you building a factory for your noisy machinery? Does your power station feel exposed to wandering wildlife and hostile mobs? Do you wish you could put up a chain fence to stop pesky illagers from interrupting you? Well then..."
+				""
+				"&6'Dustrial Decor&r has you covered. This mod offers a wide range of decorative blocks with an industrial theme, perfect for enhancing your builds."
+			]
+			icon: "dustrial_decor:sheet_metal_treading"
+			id: "6C045C3939683CF3"
+			rewards: [
+				{
+					id: "63720D95CF590D9F"
+					item: {
+						Count: 1
+						id: "dustrial_decor:cardboard_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "79E7B010E4948141"
+					item: "dustrial_decor:cardboard"
+					random_bonus: 16
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "66DA076A2FDE4CC3"
+					item: "dustrial_decor:sheet_metal"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "41430E0F05A63650"
+					item: "dustrial_decor:cardboard"
+					type: "item"
+				}
+			]
+			title: "'Dustrial Decor"
+			x: 9.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5BAE6CD47D4ABF2D"]
+			description: [
+				"&dArmor Statues&r unlocks the full potential of armor stands. "
+				""
+				"Customize everything: unlock arms, rotate each body part, choose from built-in poses, and adjust various style settings. "
+				""
+				"It also includes great tools for positioning the armor stand, even making the stand itself invisible to display items seamlessly."
+				""
+				"To configure, &2shift right-click&r with an empty hand and explore a wide array of options."
+			]
+			icon: "minecraft:armor_stand"
+			id: "0475AEB443175059"
+			rewards: [{
+				id: "5C6F9FC875BF35D3"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Cosmetic Wonder"
+			tasks: [{
+				id: "62B3EA9874AC3078"
+				item: "minecraft:armor_stand"
+				type: "item"
+			}]
+			title: "Cosmetic Armor Statues"
+			x: 8.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: ["&6Straw&r is an item which is made by either cutting plants with a &6knife&r on a Cutting Board, or harvesting plants with a &6knife&r."]
+			id: "32E0EEC3834F9846"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "40ABEE66F5FEA7CF"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+				{
+					id: "4F3C687538ADDBED"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D7D89789E3B2159"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			title: "Acquiring New Materials."
+			x: -11.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["327AE18669E4B9F0"]
+			description: [""]
+			id: "1045FB828F50B457"
+			optional: true
+			rewards: [{
+				id: "4648E0B8058E5B94"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			subtitle: "What could you do with this tools?"
+			tasks: [
+				{
+					id: "3F1E515013E2F66F"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "78011274B9D7ABC3"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55FC7CED7B0B992A"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+			]
+			title: "Let's Get Cooking"
+			x: -13.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["77CB99E12D41EFF3"]
+			description: ["A &6spyglass&r can be equipped in your Curios slot. The default key to access it is&2 \"C\".&r"]
+			id: "15B432E69AB118B5"
+			rewards: [{
+				id: "3EEB1885770AC283"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1261039E3BF59801"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Can be placed on top of sticks to create a flagpole. Right-click a flagpole to raise the flag, hold sneak to lower it."]
+			id: "5765323110DD632F"
+			rewards: [{
+				id: "7C8374711E5258BB"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52D6F7A5432713D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:flag_white"
+				}
+				type: "item"
+			}]
+			title: "Flags"
+			x: 24.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["An invisible item frame for showing your items!"]
+			id: "64E12747F656787A"
+			rewards: [{
+				id: "02F58C2FB8EF51C0"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "141BBBA896063F4C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:glass_item_frame"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Cranks are used to give the exact redstone signal you want"]
+			id: "77E5B65E24EA675F"
+			rewards: [{
+				id: "3D5AAE146EF75666"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "672BD1639FB8E04A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:crank"
+				}
+				type: "item"
+			}]
+			title: "The Crankonator"
+			x: 17.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Used to find slime chunks; the areas where slimes can spawn in"]
+			id: "73F6A4A4CC3AB4BF"
+			rewards: [{
+				id: "31B796CB633AC73C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46705CE12F1C1534"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:slime_in_a_bucket"
+				}
+				type: "item"
+			}]
+			x: 24.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Can only be activated by players."]
+			id: "284B2CFDEB526D1E"
+			rewards: [{
+				id: "52FB3E4A8228C3D4"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57FA63FF482BB1DD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:obsidian_pressure_plate"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Place an animal's food in it and it will automatically breed animals for you"]
+			id: "4C2C8C0BD19535EF"
+			rewards: [{
+				id: "0D3FF898A7BFC16E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03B958E2A868EDD4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:feeding_trough"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Emits a redstone signal when looked at."]
+			id: "10A7EB03094F600D"
+			rewards: [{
+				id: "3CA86581E09FF41F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02C34921D8A0C220"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:ender_watcher"
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Emits light based on its redstone signal."]
+			id: "7E7F70D285CCACB6"
+			rewards: [{
+				id: "54E39FC332A4448F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44B4F75ACCFAB1EB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:redstone_illuminator"
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["The Wrench is used to rotate blocks already placed in the world."]
+			id: "40B15BEB0A7D4755"
+			rewards: [{
+				id: "4094DED0A7D25213"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16A2A2EB9CC44079"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Bamboo spikes are useful traps to protect you base from mobs. They can be tipped with potion effects!"]
+			id: "27E86BC510D04D45"
+			rewards: [{
+				id: "629CC1527C066D93"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60406362BFD153F5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bamboo_spikes"
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Captures small mobs like chickens"]
+			id: "4A4514326874FFB4"
+			rewards: [{
+				id: "1E25145D1A512CF8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "381335BCCDCA8258"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:cage"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["You can set it to speak a message or show it in chat."]
+			id: "14CC69CF9016CD4F"
+			rewards: [{
+				id: "1CEAED4C506E7CFF"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CF0997FCEABD745"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:speaker_block"
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Rotates blocks and mobs standing on it"]
+			id: "474856183F5F8BE8"
+			rewards: [{
+				id: "193F6DCD4263D471"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DE813AA926CABD1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:turn_table"
+				}
+				type: "item"
+			}]
+			title: "How the tables have turned..."
+			x: 21.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["used to unlock lock blocks. You can put it in any curios slot."]
+			id: "597BBC9933D7BC9E"
+			rewards: [{
+				id: "2F6962AE209D8BD4"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09413737B1B5E790"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:key"
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["These doors can be opened with hand but NOT redstone signals."]
+			id: "1912B53794E7EB02"
+			rewards: [{
+				id: "4F2ACB496918B643"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2910843651741D19"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:gold_door"
+					}
+					type: "item"
+				}
+				{
+					id: "1D68BE1B7C6875AF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:gold_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["597BBC9933D7BC9E"]
+			description: ["These strong doors can be locked with a key and can be opened with your hand."]
+			id: "6AF206A5A98471F4"
+			rewards: [{
+				id: "7F5906AB6822B6C5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5758486AAEF4DF68"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:netherite_door"
+					}
+					type: "item"
+				}
+				{
+					id: "0027CDFB1C59ED1A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:netherite_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["597BBC9933D7BC9E"]
+			description: ["Emits redstone signal when a key is used on it. The key can be renamed so only that key can be used."]
+			id: "5D3B237C312006E2"
+			rewards: [{
+				id: "742C5A04E62F7C18"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10CF2D062FCCE0F2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:lock_block"
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: [
+				"A small early-game shulker box that can only hold 5 items. "
+				""
+				"Carry too many in your inventory and you get &4slowed down.&r"
+			]
+			id: "645D4EA80D808371"
+			rewards: [{
+				id: "07CF4F6125850CBE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B92CED524964812"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:sack"
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["597BBC9933D7BC9E"]
+			description: ["Safes are harder to break shulker boxes that can be only be opened by the player who placed them."]
+			id: "7C8FD4693FE20947"
+			rewards: [{
+				id: "1B3C4F9B882BC942"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48BCE0833C7C8C90"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:safe"
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: [
+				"Welcome to the quest for a healthier and heartier life in Minecraft! &6The Spice of Life: Carrot Edition &r"
+				""
+				"The &bFood Book&r tracks the number of unique foods you consume. "
+				""
+				"As you reach specific milestones of different foods eaten, you permanently gain extra hearts, up to &c5 additional hearts.&r "
+				""
+				"This encourages you to explore and craft a wide array of exotic foods, making your culinary adventures both fun and rewarding."
+			]
+			id: "6613D41573B7F0B9"
+			rewards: [{
+				count: 5
+				id: "23E65EA8228BF22C"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B5D861C94C5BE56"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			title: "The Spice of Life: Carrot Edition"
+			x: -13.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: [
+				"Seed Pouches can store a lot of one kind of seed or crop for easy placement. "
+				""
+				"Drag a Seeds in your inventory and right-click it into the Seed Pouch. "
+				""
+				"Right-click on a block with the pouch to place a seed, or shift-right-click to plant a 3x3 square."
+			]
+			id: "77346AF832BB0811"
+			rewards: [{
+				id: "501BD1C129DB39A9"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "341A64A2CF6CDD83"
+				item: "quark:seed_pouch"
+				type: "item"
+			}]
+			title: "Really Seedy Place"
+			x: 21.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Tree Fertilizer can grow Saplings instantly regardless of their spacing conditions. "]
+			id: "44CFD2F48C7AA908"
+			rewards: [{
+				id: "4134047A35A11311"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F6D32C48F04968D"
+				item: "create:tree_fertilizer"
+				type: "item"
+			}]
+			title: "Saving The Trees"
+			x: 23.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["23A4406529BEF918"]
+			description: ["&3Rich Farmland&r is immune to trampling and automatically bone-meals anything planted on it when hydrated, effectively doubling growing speed! It even works with Saplings!"]
+			id: "51E19ACD3F0994BE"
+			rewards: [{
+				count: 5
+				id: "077F2720892CF9E1"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "4C731200FFD5E3F8"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["32E0EEC3834F9846"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eOrganic Compost&r can be placed in sunlight to decompose it into &3Rich Soil&r. "
+				""
+				"Having water or decomposing agents like Mushrooms nearby can speed up the decomposition process."
+			]
+			id: "23A4406529BEF918"
+			rewards: [{
+				count: 5
+				id: "30619AD6DE912BCD"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CA5202F0A0C4D8A"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["5BAE6CD47D4ABF2D"]
+			description: [
+				"&eHandcrafted&r mod adds detailed furniture and decor to your Minecraft world. "
+				""
+				"Craft and place stylish chairs, tables, storage, and more."
+				""
+				"Personalize your builds with a variety of items to create cozy living rooms, elegant dining areas, and unique spaces. "
+			]
+			id: "3E5AC888381F061B"
+			rewards: [{
+				id: "7AD01FD10DC4B649"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2FB87E98ED4647AA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "itemfilters:mod"
+							tag: {
+								value: "handcrafted"
+							}
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Handcrafted  Mod"
+			x: 11.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["70068CFDA790A856"]
+			description: [
+				"&eThe Bell of Secrets &rlets you know if there is a chest or barrel in the room. So you can be sure you've completely cleaned out a dungeon."
+				""
+				"{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"437795B131AF223B\" } }"
+			]
+			id: "65704FFF9C380E29"
+			rewards: [{
+				id: "157D4506D95666D3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3024956BE85095F0"
+				item: "dimdungeons:item_secret_bell"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["7FA5CDC0F616D2C5"]
+			description: [
+				"If you are to make it out there, you need to protect yourself with a set of &7iron armor&r."
+				""
+				"There are tons of different sets you can choose from across various mods. &cEpic Samurai&r offers some really cool-looking armor. Try checking it out!"
+			]
+			id: "3D1AC201E82A3A87"
+			rewards: [
+				{
+					count: 3
+					id: "55CF1DF84CE5F91F"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "67736F8662139C7A"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2351EC302CBFBB56"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2435372B522CF46F"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "154A0ECC4AFFF14E"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3886554BDF8FDD41"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69387BD95CD55286"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron Suit"
+			x: -2.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			id: "535A8A11EFC7DB00"
+			rewards: [{
+				count: 5
+				id: "41E31550C1E0364D"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Some useful stuff, I guess?"
+			tasks: [{
+				id: "280744313571F573"
+				type: "checkmark"
+			}]
+			title: "Other Stuff"
+			x: 14.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Notice boards are a block which can be used to display the contents of books (with a space limit). Right-click the block to open the GUI and place a book and quill containing text into the slot."]
+			id: "374C6E5D8EE3E51B"
+			rewards: [{
+				id: "269458D370C274E4"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "523878E78A56FFD3"
+				item: "supplementaries:notice_board"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: [
+				"Can be written on to create interesting pattern in black and white."
+				""
+				"Can also be directly edited without the GUI by holding a dye item."
+				""
+				"Can be cleared by using a wet sponge or soap"
+				""
+				"Can be waxed to prevent interactions"
+				""
+				"Can accept glow ink"
+			]
+			id: "07AC6598017865A8"
+			rewards: [{
+				id: "6817C5A56A1901AE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0385C0D06F7DE9BA"
+				item: "supplementaries:blackboard"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["06267D7C266DE215"]
+			description: [""]
+			id: "33641B098AD37A6D"
+			rewards: [{
+				count: 10
+				id: "40F07D2FD86F5359"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Craft items with automation."
+			tasks: [{
+				id: "0E2182751975D45F"
+				item: "quark:crafter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5BAE6CD47D4ABF2D"]
+			description: [
+				"Enhance your Minecraft experience with &cImmersive Paintings&r. "
+				""
+				"This mod offers a vast array of high-quality, Minecraft-stylized paintings. "
+				""
+				"Say goodbye to the limited and pixelated vanilla paintings. With this mod, you can create your own paintings using a URL or a screenshot, easily adding them to your game."
+			]
+			id: "7D68F339A30C3A78"
+			rewards: [{
+				id: "5600E50C67FE59F0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "21FF9C0C9DAFE3A0"
+				item: "immersive_paintings:painting"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"&cFramedBlocks&r adds versatile blocks of various shapes that can mimic almost any other block in the game. "
+				""
+				"Customize these blocks by right-clicking with solid blocks or Glowstone Dust for lighting."
+				""
+				"Use the &6Framed Hammer&r to remove camouflage or toggle texture offsets on prism corners."
+				""
+				"Rotate blocks with the &6Framed Wrench&r or cycle through states with the &eFramed Screwdriver&r. Copy blocks using the &3Framed Blueprint&r."
+			]
+			id: "68D7F888BF6332F3"
+			rewards: [{
+				id: "59D451F7754DD0B4"
+				item: "framedblocks:framed_wrench"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C9F375956085552"
+				item: "framedblocks:framed_cube"
+				type: "item"
+			}]
+			title: "Framed Blocks"
+			x: -6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["04D09899362AFC7A"]
+			description: [
+				"A new village civilization has been discovered in &6the Swamps&r. We have named them &aRibbits&r as the habitants of this new village are Frogs. "
+				""
+				"Further studies are needed to find their origin but some researchers believe a Witch might have dropped some Ooze by mistake in the waters, turning the frogs into &aRibbits&r. "
+				""
+				"The &aRibbits&r have an enjoyment for music, they can be found playing various instruments by themselves or in groups, like a Frog band, makes me wonder if they are playing the Frog Choir? At least the moon is not falling in 3 days haha."
+				""
+				"Researchers have found that if you play with Maracas, the &aRibbits&r will join you and play their instruments. "
+				""
+				"{@pagebreak}"
+				"&eJobs:&r Surprisingly &aRibbits&r have developed jobs. There are a few being the follow:"
+				""
+				"&b->Witches: &rThey may occasionally give you random potion effects."
+				""
+				"&b->Fisher:&r They can be found fishing near the lake swamps and you can trade with them and curiously they give out &ccolorful corundum&r. How do they get it? Researchers are still looking into that."
+				""
+				"&b->Farmers:&r They make crops grow faster. They have a formula that the water they pour is just like bone meal! Fascinating! "
+				""
+				"&b->Merchants:&r They are merchants, you can spot them by their backpack and they trade with you. Surprisingly they &ctrade corundum in various colors&r and a&d Maraca&r. We don’t know where they get the corundum from but the colors of corundum they have for trade changes from Merchant to Merchant. &l&o&nThis is nice since you know you'll need all the colors of corundum later!"
+			]
+			id: "1278600075A14600"
+			rewards: [{
+				id: "7FA853760C14AB69"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "ribbits:swamp_daisy"
+				id: "3F7B2CF420C184B0"
+				structure: "ribbits:ribbit_village"
+				type: "structure"
+			}]
+			title: "&2Find a Ribbit village"
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0C49795E134A27E0"]
+			description: ["&6🔓 Unlocks Sophisticated Storage chapter&r"]
+			id: "261651FB7B600587"
+			rewards: [{
+				count: 4
+				id: "64DBDCF395159258"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Craft a Chest"
+			tasks: [{
+				id: "0A4067255335AACF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests"
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Chest"
+			x: -26.250000000000004d
+			y: 18.0d
+		}
+		{
+			dependencies: ["478DE12D3EF8C22A"]
+			description: ["When placed, the &9Dread Lamp&r prevents all passive mobs from naturally spawning in a &d96 block radius&r."]
+			id: "256C0855A1AD720B"
+			rewards: [{
+				count: 5
+				id: "1B0A6375471607B5"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A80939497557BD4"
+				item: "torchmaster:dreadlamp"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0CAD67E9B2DC3B59"]
+			description: [
+				"&cThe electricity system in this mod is exclusively for its own components and cannot be used with other mods.&r"
+				""
+				"To start, you will need a &agenerator&r. Simply put &afuel&r in it, and it will start generating &cpower&r."
+				""
+				"Some machines require &cpower&r to work, so you need to use a &3wrench&r to connect a line from the generator to the machine you want to power."
+				""
+				"Keep in mind that this works like circuits. "
+				""
+				"For example, you can make a line like: Generator > Lightswitch > connect to other components."
+				""
+				"So power up your &6workbench&r and start crafting the amazing furniture to decorate your house!"
+			]
+			id: "0ADF7E30D7F5B61E"
+			rewards: [{
+				id: "62B451B57B6D95A2"
+				item: "refurbished_furniture:oak_mail_box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AC6A6DB3DEB7E3D"
+				item: "refurbished_furniture:light_electricity_generator"
+				type: "item"
+			}]
+			title: "POWER UP!!!"
+			x: 10.0d
+			y: 12.8d
+		}
+		{
+			dependencies: ["1278600075A14600"]
+			description: [
+				"&cC&6o&er&au&bn&9d&du&5m&r is gonna be used later on! You can find it underground, or trade with some &aRibbits&r!"
+				""
+				"You won't need to use it until &bChapter IX&r though. So you have some time"
+			]
+			id: "1F2F6591E18F3023"
+			rewards: [{
+				count: 3
+				id: "2E76D28D719A5D37"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "You'll need this later"
+			tasks: [
+				{
+					id: "6B3DEB7111D8477D"
+					item: "quark:black_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "59B9E0934A77BC4A"
+					item: "quark:white_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "2F269F6BFCB8A5AE"
+					item: "quark:red_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "3BAB9AEFE32E0D31"
+					item: "quark:orange_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "395214F830AA463D"
+					item: "quark:yellow_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "1A7B2AE9A8C1321E"
+					item: "quark:green_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "673BA2E314D6ACE1"
+					item: "quark:blue_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "6DCB938D1936667A"
+					item: "quark:indigo_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "4F3BE76D14308060"
+					item: "quark:violet_corundum_cluster"
+					type: "item"
+				}
+			]
+			title: "&8The entire &r&l&o&n&cR&6a&ei&an&bb&9o&dw"
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4F9B4B7F2D747375"]
+			description: ["\"Stock up on &8andesite&r cuz you need it for &8andesite alloy&r!\""]
+			icon: "minecraft:lantern"
+			id: "7D6CA452A433EBD7"
+			tasks: [{
+				id: "110A241E6410CDC0"
+				type: "checkmark"
+			}]
+			title: "From &eInconspicuous_lamp"
+			x: -32.9d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5525E70F7FBDBD92"]
+			description: [
+				"The following quests are from prominent people in the &9Discord&r!"
+				""
+				"They are fully &boptional&r, but may help out later on!"
+				""
+				"I asked each person, \"&o&aWhat is one thing you wish you knew from the very start of your first playthrough?&r\""
+				"The following quests were their responses."
+				""
+				""
+				"&eHonorable Mentions:&r"
+				""
+				"->Jetpack + grappling whisk is pretty fun to use &d&o- by L B&r&r"
+				""
+				"-> Angel Wings with a Jetpack is goated."
+				"Also, Earth magic from Irons is pretty strong. &d&o- by AxoFit&r"
+				""
+				"-> It’s much easier to start automating by taking Brass Funnels from the Brass Tier quest rewards in Chapter 2. They allow you to transport stacks or varying amounts of items, rather than just one item at a time on belts. &d&o- by Broken_Statstick&r"
+			]
+			id: "4F9B4B7F2D747375"
+			tasks: [{
+				id: "554F2A68817444F8"
+				title: "README.md"
+				type: "checkmark"
+			}]
+			x: -32.9d
+			y: 14.4d
+		}
+		{
+			dependencies: ["4F9B4B7F2D747375"]
+			description: [
+				"\"Probably the fact that &5Ars Nouveau&r was pretty overpowered lol. "
+				""
+				"&5Ars Nouveau&r is extremely useful in almost every step of the modpack, including the early-game as it gives you a good source of &aflight&r in the beginning, and even a combination of a &cTier I armor set&r and &cbook&r makes you well equipped early on in the game. "
+				""
+				"Not only that, but you also get access to &6Rituals&r which are useful in of themselves (&6Ritual&r of &bFlight&r gives you &acreative flight&r within a set radius) and &8warp portals&r, which honestly just act as alternative waystones but much cheaper and much more accessible.\""
+			]
+			icon: "alexsmobs:farseer_arm"
+			id: "12B9DBB08E1A760D"
+			tasks: [{
+				id: "3959EA9AF3798912"
+				title: "From CraftxTD"
+				type: "checkmark"
+			}]
+			title: "From &eCraftxTD"
+			x: -33.9d
+			y: 13.3d
+		}
+		{
+			dependencies: ["4F9B4B7F2D747375"]
+			description: [
+				"\"The &5Ars Nouveau&6 flight&r was just MINDBLOWING it made building a breeze (shoutout to &1@Demodraco&r). Also the fact that you could make &aspells&r that could mine &b6x6&r or &beven bigger areas&r was a game changer."
+				""
+				"For the Item i'd say its the &bBuilding&a Gadget&r, I used it a ton and i love to think of myself as a handy little building buddy :)\""
+			]
+			icon: "buildinggadgets2:gadget_building"
+			id: "44B6029E40E5AFE4"
+			tasks: [{
+				id: "5FC14712A8CB8147"
+				title: "From RealDapi"
+				type: "checkmark"
+			}]
+			title: "From &eRealDapi"
+			x: -34.2d
+			y: 14.3d
+		}
+		{
+			dependencies: ["0ADF7E30D7F5B61E"]
+			description: ["You can convert RF to the mod’s current energy system using the&6 Circuit Breaker.&r"]
+			id: "31DB2CD7ECC30BF9"
+			tasks: [{
+				id: "1EF67D0C964E0ABF"
+				item: "cfm_circuit_breaker:circuit_breaker"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.4d
+		}
+		{
+			dependencies: ["4F9B4B7F2D747375"]
+			description: [
+				"-> Creating a &dSourceberry farm&r with a &bTablet of Flight&r for early creative flight around your base area."
+				""
+				"-> &aArs Portals&r can be used as an alternative to trains for item transportation."
+				""
+				"-> You can use &cSophisticated Storage to make subnetworks&r for your base, saving you a lot of trouble creating TSS items for your network."
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:warp_scroll"
+				tag: { }
+			}
+			id: "600B5CE699E3DE1D"
+			tasks: [{
+				id: "2B2C58EC9086DE24"
+				type: "checkmark"
+			}]
+			title: "From &eNich"
+			x: -31.8d
+			y: 13.2d
+		}
+		{
+			dependencies: ["4F9B4B7F2D747375"]
+			description: ["You can easily find &cMimics&r and farm &eArtifacts&r by keeping the &aSpectral Eye Amulet&r in your inventory (you don't even need to equip it) and going underground. They appear with a blue outline."]
+			icon: "artifacts:mimic_spawn_egg"
+			id: "0A95DD8CC46A30B5"
+			tasks: [{
+				id: "1B9E935A0CC30B89"
+				type: "checkmark"
+			}]
+			title: "From &exceing"
+			x: -31.4d
+			y: 14.1d
+		}
+	]
+	title: "&6&nGetting Started!"
+}

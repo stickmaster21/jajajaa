@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "0f549f8634963e96bdd820cffcd3d07b"
+	name: "santy27#0f549f86"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

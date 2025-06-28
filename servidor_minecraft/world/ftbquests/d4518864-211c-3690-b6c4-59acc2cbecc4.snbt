@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "d4518864211c3690b6c459acc2cbecc4"
+	name: "santydork#d4518864"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		0472A7BE9E04C326: 1
+		49A349EDC9F68F2B: 1
+	}
+	started: {
+		49A349EDC9F68F2B: 1751149928259L
+		0000000000000001: 1751149928259L
+		0459D6A74275DD3C: 1751149928259L
+		0C58CBF1F4D636FC: 1751149928259L
+		5D5914AC9E5722EF: 1751150000653L
+		0472A7BE9E04C326: 1751150000653L
+	}
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

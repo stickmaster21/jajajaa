@@ -1,0 +1,797 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_iv_the_locomotive_machine"
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1
+		id: "kubejs:obsidian_machine"
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
+	id: "0AF8EE64D6B4516C"
+	images: [
+		{
+			alpha: 200
+			color: 16672790
+			height: 1.2d
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.2d
+			x: 3.0d
+			y: -20.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/energy_input"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -8.5d
+		}
+	]
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["46C6D675E116C997"]
+			id: "31055C6D28A45113"
+			rewards: [{
+				id: "4303430F0A68B578"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27AB083F26DF84B3"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["174567332B8DE8C1"]
+			id: "46C6D675E116C997"
+			rewards: [{
+				id: "6C07E93EE33A8F4D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "475DEBC8DA7BD31A"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "174567332B8DE8C1"
+			rewards: [{
+				id: "51A2B9110A53CB75"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "392FC7AAF3ACCF9F"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1325CB313B08AB70"
+			rewards: [{
+				id: "71DC15A34CEE02F3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1456DD2C10D0A955"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "784EF4A65242E3FD"
+			rewards: [{
+				id: "30C3926A43672E89"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C3D1D3FCF46A210"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5C00CCFC83CCE7A4"
+			rewards: [{
+				id: "00C1432798EB30E0"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "274695EAFEFA7242"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"2B1038EE6D366111"
+				"4B78BB8B294461A9"
+			]
+			dependency_requirement: "one_completed"
+			id: "4B91CC0919FE9219"
+			rewards: [{
+				id: "18C60FDB8637A4DB"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AA90DC761775BFD"
+				item: "tfmg:cement"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["08B00F4FFF4BA13F"]
+			id: "2B1038EE6D366111"
+			rewards: [{
+				id: "22E795BD2D95B10C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "538CD736FF8B66F7"
+				item: "tfmg:limesand"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4B78BB8B294461A9"
+			rewards: [{
+				id: "784E38EC380896AC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3948FE8F632A21BB"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4D774B40DB2BEA38"
+			optional: true
+			rewards: [{
+				id: "0C7F828C81E98FC7"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EB79B5A265FBBA4"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -19.5d
+		}
+		{
+			dependencies: [
+				"4D774B40DB2BEA38"
+				"42CFF547BDAB44B1"
+			]
+			dependency_requirement: "one_completed"
+			id: "08B00F4FFF4BA13F"
+			optional: true
+			rewards: [{
+				id: "5FC85A71291D3714"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17494EABC0E0ED8B"
+				item: "create:limestone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "07EE6AFA3FE693E1"
+			rewards: [{
+				id: "33D129BFFF3DE9E7"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BCDEB4A718D3EF2"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6E62A3B6C3E0EF8B"]
+			description: [
+				"&9Mob Predictions &rwill need to be processed in a &2loot fabricator&r, a device which uses power to convert predictions to mob drops."
+				""
+				"The drops which are available are based on a list of pre-defined items, and a target can be selected for each type of model. "
+				""
+				"&2The loot fabricator&r will remember your choices for each type, so you can feed multiple types of predictions into a single fabricator."
+			]
+			id: "1360D8CD2949E41B"
+			rewards: [{
+				id: "2BAD048AD10B57A4"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E70EED36DDFF8EF"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"6B0D61030092824D"
+				"58DD96B724C875FE"
+				"0AF71B3EB3531CAC"
+				"5D27AE49D1AB4C11"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Training a Data Model can be done in one of two ways, with a &4Deep Learner&r or with a &6Simulation Chamber&r. "
+				""
+				"All models start out in the Faulty state, and must be trained up to Basic in the deep learner."
+				""
+				"Once your model is Basic or higher, you can use the simulation chamber to run simulations of your model. "
+				""
+				"Simulations will always produce a generalized prediction, and may also produce a Mob Prediction, based on the accuracy of the model."
+				""
+				"The higher tier of the model, the higher the accuracy, up to 99.5% at Self Aware. Running simulations requires energy (based on the model type) and a catalyst item, which is usually a &6Prediction Matrix&r."
+			]
+			id: "6E62A3B6C3E0EF8B"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "79C5B1F9ABE3A920"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "It requires enery to run."
+			tasks: [{
+				id: "5E181D8952DDF478"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["49A0E7E6B5C3DB65"]
+			description: [
+				"&2Hostile Neural Networks&r is a mod based on Deep Mob Learning."
+				""
+				"It allows you to train data models and run simulations, producing mob predictions, which can be used to generate mob loot."
+				""
+				""
+				"The fundamental unit of this mod is the &dData Model&r - an item which holds information about an entity that you can utilize to generate their drops. "
+				""
+				"To get a Data Model, you must first craft a &6Data Model Framework&r, to start collecting data on a specific mob, &9right click&r the mob you'd like to gather data on. When done properly, the Model Framework will turn into the&6 Data Model&r of the mob you clicked on."
+				""
+				"To \"gather data\" for that mob, place the newly created Data Model inside of a &aDeep Learner&r, then start killing that specific mob with the Deep Learner in your inventory."
+			]
+			id: "6B0D61030092824D"
+			rewards: [{
+				id: "2A19D5165B875DDF"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56731712C3EC0870"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"5E60FF6098CB030B"
+				"3DFF1B74E8AADB57"
+			]
+			description: [
+				"Please visit chapter &aCreate 101 - Guidebook&r to learn how to build trains &n&cthey need fuel to work.&r&r"
+				""
+				"{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"66428F3633CBBC85\" } }"
+			]
+			hide_until_deps_complete: true
+			id: "143E325CFBC9FAC9"
+			rewards: [
+				{
+					id: "210218F9ADD2294B"
+					item: "kubejs:obsidian_machine"
+					type: "item"
+				}
+				{
+					count: 60
+					id: "72DB4C998BE6BEB7"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4D24AF2A8A549B0B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "300EC4A1F3FFEC13"
+				item: "kubejs:obsidian_machine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"2EF91E1C99625A46"
+				"07EE6AFA3FE693E1"
+				"31055C6D28A45113"
+			]
+			dependency_requirement: "one_completed"
+			description: [""]
+			id: "3DFF1B74E8AADB57"
+			rewards: [
+				{
+					count: 8
+					id: "649EBBD6DEE04890"
+					item: "kubejs:locomotive_mechanism"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27CC33BDF94154B7"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "483BC910223BB44C"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20845DA19DCC70C1"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F10BCB1B41329EE"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "6CB9C844EE16FE89"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0902CB56133DA394"
+				item: "kubejs:locomotive_mechanism"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53A0772D1388314C"]
+			id: "2EF91E1C99625A46"
+			rewards: [{
+				id: "1AC82E9B9A3217ED"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D53BF11AFCB88D7"
+				item: "alexscaves:metal_rebar"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D4534E5FEBE0716"]
+			id: "53A0772D1388314C"
+			rewards: [{
+				id: "1F77F5C5B18BC60D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53733C42A5BCDD42"
+				item: "alexscaves:scrap_metal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6E509C44D3A6E49E"]
+			id: "4D4534E5FEBE0716"
+			rewards: [{
+				id: "2761AE11F4DFB96A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00B9F2140FA31170"
+				item: "alexscaves:metal_swarf"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1360D8CD2949E41B"]
+			description: [
+				"&0Ferrous Slime&r can be found in &9Magnetic Alex Caves&r."
+				""
+				"Once you get there you need collect a data model of Ferrous Slime and train it to Basic."
+				""
+				"{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"073F2FEC3D06AC0E\" } }"
+			]
+			id: "6E509C44D3A6E49E"
+			rewards: [{
+				id: "5FD6B361B2ACBC75"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73B98B126E5C8B08"
+				item: "alexscaves:ferrouslime_ball"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			description: ["Although it shows a Honey Bottle, you need to actually use a&n Honey Bucket with filling by spout.&r&c "]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "42CFF547BDAB44B1"
+			optional: true
+			rewards: [{
+				id: "03EAFBCCA1038AC3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "641350D980FCA0F9"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0FA7629CCE64385C"
+			rewards: [{
+				id: "173D98907050B4C6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "317DED90EB4BE944"
+				item: "tfmg:formwork_block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"0FA7629CCE64385C"
+				"5C00CCFC83CCE7A4"
+				"784EF4A65242E3FD"
+				"1325CB313B08AB70"
+				"4B91CC0919FE9219"
+			]
+			description: [
+				"After creating the Liquid Concrete, use a Mechanical Pump and Pipe to inject the Liquid Concrete into the Formwork Block. After the Formwork Block is full, wait a &n&dfew minutes&r&r &o&7(can take a while sometimes)&r&r for the Liquid Concrete to turn into Concrete. When that happens, the Formwork Block will break and you’ll have to place a new one. "
+				""
+				""
+				"&2&lNote:&r &r&oYou can use a bucket of Liquid Concrete on the floor. The Liquid Concrete will turn into Concrete as if you used a Formwork Block but if you wish to do the Rebar Concrete then you have to use the process of injecting the Liquid Concrete into the Rebar Formwork Block.&r"
+			]
+			id: "49A0E7E6B5C3DB65"
+			rewards: [{
+				id: "517B88FEF859E9C6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DF77E7EDAD9CD77"
+				item: "tfmg:concrete"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "58DD96B724C875FE"
+			rewards: [{
+				id: "7EC39768269FF1AF"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AD585B377F63905"
+				item: "hostilenetworks:prediction_matrix"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			description: [
+				"The &6Deep Learner&r is one of the core components of HNN."
+				""
+				"With this item, you can right click to open up a HUD and store &6Data Models&r to gather data while killing mobs."
+				""
+				"Each Learner can hold 4 Data Models, and as long as you have the Learner anywhere in your inventory, it will collect data for the models placed inside!"
+				""
+				"Note: You can have multiple Deep Learners in your inventory, and it will count the kills for all Data Models inside all of the Learners."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0AF71B3EB3531CAC"
+			rewards: [{
+				id: "22EE923AEC44F07E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BDD94C5B583CCFD"
+				item: "hostilenetworks:deep_learner"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3DFF1B74E8AADB57"]
+			description: [
+				"The &6Travel Staff&r allows the player to teleport by using &7SHIFT+Right-click&r and aiming at the desired location. Aim the staff at the &ctravel anchor&r to teleport into it."
+				""
+				"The &3Travel Anchor&r is block that allows for teleportation over greater distances when you stand on it, even through obstacles as long as the anchor can be selected."
+				""
+				"You can right-click the  &3Travel Anchor&r with any block in you offhand to change it's appearance and model."
+				""
+				"You can also name the &3Travel Anchor&r whatever you want."
+			]
+			hide_until_deps_complete: true
+			id: "33274B5D531EF9B7"
+			rewards: [{
+				id: "76C8CF873148521B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "03924F210618B3C4"
+					item: "travelanchors:travel_staff"
+					type: "item"
+				}
+				{
+					id: "5DA3A05BDAEAAC05"
+					item: "travelanchors:travel_anchor"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			description: ["&6The Alternator&r turns rotational power (Needs at least 32rpm) into energy power. The RPM determines how much energy power is generated."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3BC42BD7940D32EC"
+			tasks: [{
+				id: "132101A9D1B0DF68"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3BC42BD7940D32EC"]
+			description: [
+				"There are 3 types of Connectors, the Small Connector, Small Connector With Light and Large Connector. "
+				""
+				"The difference between the Small Connectors and the Large Connectors is the amount of energy they can output/input and how many can be connected to a single one."
+				""
+				"Use a &nWrench to cycle between Push/Pull and None modes.&r"
+			]
+			id: "7D2CDB926DDBA8C4"
+			tasks: [{
+				id: "74F660B580789CAB"
+				item: "createaddition:connector"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7D2CDB926DDBA8C4"]
+			description: [
+				"With an &6Empty Spool&r you can turn it into 4 different types using their respective Wires: Copper Spool; Gold Spool; Electrum Spool and Copper Spool With Festive Lights."
+				""
+				"The difference between the Copper Spool and the Gold/Electrum Spool is the connectors they can connect to and the energy they transfer. "
+				""
+				"The Copper connects to Small Connectors while the Gold/Electrum connect to the Large connectors."
+				""
+				"When a Spool is fully used, it will turn into an Empty Spool again."
+			]
+			id: "5D27AE49D1AB4C11"
+			tasks: [{
+				id: "7E6FEF80B97D6254"
+				item: "createaddition:copper_spool"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3DFF1B74E8AADB57"]
+			description: [
+				"&6Advanced Wireless Terminals&r are much more useful than basic ones. "
+				""
+				"Bind a Terminal by shift-right-clicking, and as long as you're within 96 blocks and the terminal is loaded, you can access it!"
+				""
+				"&7If you are a veteran, beacon features are &ndisabled&r.&r"
+			]
+			hide_until_deps_complete: true
+			id: "521189A0069D8262"
+			rewards: [{
+				count: 9
+				id: "5CA8AC8B541BA0A7"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06F21B2BC81D446C"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1360D8CD2949E41B"]
+			description: [
+				"You can farm &aexperience&r using Hostile Neural Networks with models from &n&6Silverfish&r&r or &n&6Mimics&r&r."
+				""
+				"Mimics consume significantly more energy to produce experience."
+			]
+			id: "795A1C6CA55A1261"
+			rewards: [{
+				count: 5
+				id: "339B5CF18FA67E0E"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A9A634693791843"
+				title: "I acknowledge this!"
+				type: "checkmark"
+			}]
+			title: "Exp Farm"
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3DFF1B74E8AADB57"]
+			id: "36364789C9C3EA4C"
+			rewards: [{
+				count: 20
+				id: "58C901FA1AD3B24F"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45A054949F52898D"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
+			x: 1.4d
+			y: 2.7d
+		}
+		{
+			dependencies: ["3DFF1B74E8AADB57"]
+			id: "44B4B7E89C0FAB9C"
+			rewards: [
+				{
+					count: 2
+					id: "421B5CED2F284E9B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "3F7E0013D8CEFD92"
+					item: "pipez:improved_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45BC5DC26A3BA56B"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.7d
+		}
+	]
+	title: "Chapter IV: The Locomotive Machine"
+}

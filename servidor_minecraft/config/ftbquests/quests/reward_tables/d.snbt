@@ -1,0 +1,261 @@
+{
+	id: "57F2D323BDCCAB1E"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "d"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:enigma"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.11999996f
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:magiscythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.11999996f
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:magispear"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.11999996f
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:magiblade"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.11999996f
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:iron_longsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 1.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:iron_twinblade"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:iron_rapier"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:iron_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:iron_halberd"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:iron_greathammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:iron_greataxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:iron_warglaive"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:iron_glaive"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:gold_chakram"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.9f
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:diamond_chakram"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.59999996f
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:runic_chakram"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.40000004f
+		}
+		{ item: "simplyswords:runic_tablet", random_bonus: 2, weight: 0.6999999f }
+		{ count: 20, item: "minecraft:diamond", weight: 0.3f }
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:diamond_longsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.6f
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:gold_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:ghost_sword"
+				tag: {
+					Damage: 0
+					display: {
+						Name: "{\"text\":\"Phantasmal Blade\",\"color\":\"blue\",\"italic\":false}"
+					}
+				}
+			}
+			weight: 0.08999997f
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:netherite_scythe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 10s
+					}]
+					Unbreakable: 1b
+					display: {
+						Lore: ["{\"text\":\"Forged in forgotten realms...\",\"italic\":true,\"color\":\"gray\"}"]
+						Name: "{\"text\":\"Scythe of the Forgotten\",\"color\":\"dark_purple\",\"bold\":true}"
+					}
+				}
+			}
+			weight: 0.13f
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:spellbreaker"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:counterspell"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+			}
+			weight: 0.49999997f
+		}
+		{ count: 64, item: "minecraft:diamond", weight: 0.15f }
+		{ item: "ars_nouveau:burst", weight: 0.08999997f }
+		{
+			item: {
+				Count: 1
+				id: "twilightforest:glass_sword"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+					display: {
+						Lore: ["{\"text\":\"A fragile-looking blade...\",\"color\":\"gray\",\"italic\":true}"]
+						Name: "{\"text\":\"Glass Sword\",\"color\":\"aqua\",\"italic\":false}"
+					}
+				}
+			}
+			weight: 0.049999963f
+		}
+	]
+	title: "&lSpellblade Crate"
+	use_title: true
+}

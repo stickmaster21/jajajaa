@@ -1,0 +1,18 @@
+
+#.
+#Packmakers' control panel for internal optical recipe compat
+[optical-recipes]
+	#.
+	#.
+	#Regulate the probability of getting charcoal as a failed output in smoking focusing recipes.
+	#Range: 0.0 ~ 1.0
+	focusingSmokingFailedOutputProbability = 0.0
+	#.
+	#Regulate the probability of getting charcoal as a failed output in coloring focusing recipes.
+	#Range: 0.0 ~ 1.0
+	focusingColoringFailedOutputProbability = 0.10000000149011612
+	#.
+	#Regulate the probability of getting charcoal as a failed output in sanding focusing recipes.
+	#Range: 0.0 ~ 1.0
+	focusingSandingFailedOutputProbability = 0.0
+

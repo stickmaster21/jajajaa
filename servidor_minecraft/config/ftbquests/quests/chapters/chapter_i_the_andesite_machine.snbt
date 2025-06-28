@@ -1,0 +1,709 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_i_the_andesite_machine"
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1
+		id: "kubejs:andesite_machine"
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
+	id: "0459D6A74275DD3C"
+	images: [{
+		alpha: 200
+		color: 16672790
+		height: 1.2d
+		image: "chalk:block/mark/arrow"
+		rotation: 180.0d
+		width: 1.2d
+		x: 4.0d
+		y: -5.0d
+	}]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["342BCE36CF749057"]
+			description: [
+				"Begin your journey by harvesting the essence of nature: Trees."
+				""
+				"Go punch some trees to gather wood logs or you can have my axe! If I had an axe to give… "
+				""
+				"Eventually you can make an automated Tree Farm. "
+				""
+				"Make sure to gather the Saplings to replant the trees to ensure a renewable source of wood."
+			]
+			hide_dependency_lines: true
+			icon: "twilightforest:time_sapling"
+			id: "12796FE2B6E3D53E"
+			rewards: [
+				{
+					count: 2
+					id: "241CF8EB10742E6B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A6BDC527F3A10DE"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6570B0CBBB61B903"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+				type: "item"
+			}]
+			title: "Tree Farm"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["12796FE2B6E3D53E"]
+			description: [
+				"Now that you have punched a tree or cut down a tree with an axe, with the logs you have harvested, you can make all sorts of wood creations!"
+				""
+				" Always make sure to plant the saplings again to harvest more logs after."
+				""
+				"&l&6Tip:&r&r &oYou can use a Mechanical Saw and a Hand Crank to cut down trees faster.&r"
+			]
+			id: "0C58CBF1F4D636FC"
+			rewards: [
+				{
+					count: 2
+					id: "559AA194623B61BA"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C92AA3CAF9AEAD3"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "49A349EDC9F68F2B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				type: "item"
+			}]
+			title: "Log Harvest"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C58CBF1F4D636FC"]
+			description: ["Time to strip some logs! You can strip them by using an axe or using the &6Mechanical Saw&r, which can be used to automate the process later."]
+			id: "5C5BBEA6E03836C7"
+			rewards: [
+				{
+					count: 2
+					id: "40F0C1B819CB28EA"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "125195B8E31B68C8"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "38C48144798950D8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:vanilla_stripped_logs"
+					}
+				}
+				type: "item"
+			}]
+			title: "Sawmill Processing"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5C5BBEA6E03836C7"]
+			description: ["With the striped logs, you can convert them into planks using a&6 Crafting Table&r or a &6Mechanical Saw&r."]
+			id: "5D5914AC9E5722EF"
+			rewards: [
+				{
+					count: 2
+					id: "686563B7B3E6BC35"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05452EAA7FA877BB"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0472A7BE9E04C326"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+				type: "item"
+			}]
+			title: "Plank Production"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D5914AC9E5722EF"]
+			description: ["With your planks in hands, you can now refine them further into Wooden Slabs. They offer a variety of crafting and building uses. "]
+			id: "507927EEC1417661"
+			rewards: [
+				{
+					count: 2
+					id: "48A578EBA55BB619"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "152D17CC48AFF968"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7EDC0295D42294EE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wooden_slabs"
+					}
+				}
+				type: "item"
+			}]
+			title: "Slab Crafting"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["342BCE36CF749057"]
+			description: [
+				"&cThis Lava is hot!&r Lava can be used for many things, such as creating &6Cobblestone&r by touching it with water!"
+				""
+				"Touching in the wrong order can create Obsidian instead."
+				""
+				"&l&6Tip:&r&r &oYou can generate lava by using Drip Stones and a Cauldron.&r"
+			]
+			hide_dependency_lines: true
+			id: "6528F97D788A957A"
+			rewards: [
+				{
+					count: 2
+					id: "15601A9F64FD750E"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FE38AE7AD47A4E7"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "78AD80DDFB004EB4"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			title: "Lava Collection"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["342BCE36CF749057"]
+			description: [
+				"&bWater is not hot!&r Shocking I know… Water can be used for many things, such as creating &6Cobblestone&r by having Lava touch the water. "
+				""
+				"If the Water touches the lava first, it will turn into Obsidian instead of Cobblestone."
+				""
+				"&l&6Tip:&r&r &oYou can have an infinite water source by creating a 4 square hole and filling it with water.&r"
+			]
+			hide_dependency_lines: true
+			id: "72070D0355244B40"
+			rewards: [
+				{
+					count: 2
+					id: "0D3422F7EA4A823B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B21491A4B9C7B0F"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "61B23653DEBA1D46"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			title: "Water Gathering"
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6528F97D788A957A"
+				"72070D0355244B40"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"Now that you have combined the forces of &bWater&r and &cLava&r or mined some &6Cobblestone&r. "
+				""
+				"&6Cobblestone&r can be used for many things, such as upgrading your starter wooden house or your starter dirt house… no judging. "
+			]
+			id: "5DB498A2D21DEC4D"
+			rewards: [
+				{
+					count: 2
+					id: "482C57DD1749FAEF"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E10C92B2759B3CD"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "47EEF251F08E2BC4"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "Cobblestone Generation"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DB498A2D21DEC4D"]
+			description: [
+				"With all the Cobblestone you’ve harvested, it’s time to make that annoying block that tells you “YOU SHALL NOT PASS!” if it doesn’t suffocate you first by falling on top of you. "
+				""
+				"You can make the Gravel by using a&6 Millingstone&r or &8Crushing Wheels&r."
+			]
+			id: "53EB7E023803E1B4"
+			rewards: [
+				{
+					count: 2
+					id: "26335B4810B5614B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65603C728EB8CDDD"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2B7A47255138EA52"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			title: "Gravel Production"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53EB7E023803E1B4"]
+			description: [
+				"Now that you have Gravel, you can use an &6Encased Fan&r with a heat source, like a &cCampfire&r, to turn Gravel into Andesite. "
+				""
+				"Don’t use Lava as your heat source though, it will destroy the Gravel."
+				""
+				"&l&6Tip:&r&r &oYou can use a Netherrack and set it on fire with Flint and Steel, for something more fancy than a Campfire..&r"
+			]
+			id: "7FE2DE6213FF326A"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 2
+					id: "566933CB4370622D"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1485BED3EB93240F"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5A0ADC667A80FA30"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			title: "Andesite Production"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7FE2DE6213FF326A"]
+			description: [
+				"With all the Andesite you’ve gathered, it’s time to turn into Andesite Alloy! "
+				""
+				"One of the most important materials of the &6Create Mod&r. To do so you can either use a &6Crafting Table&r or use a &6Mechanical Mixer&r for a more material efficient way."
+			]
+			id: "43D6EC530F7F1126"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 2
+					id: "7E560B65674B8053"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50B1831054F33B43"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1FF830E699AC26FB"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Andesite Alloy Mixing"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0BEFDBD8AC519539"
+				"507927EEC1417661"
+				"43D6EC530F7F1126"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"You can craft &aRotational Mechanism&r by using Mjöln-I mean the Hammer; Andesite Alloy; a Wooden Slab and some Iron ingots in a Crafting Table. "
+				""
+				"Automating the crafting of the Rotational Mechanism &6using sequence assembly makes it more resource efficient.&r"
+			]
+			id: "5E60FF6098CB030B"
+			rewards: [
+				{
+					count: 8
+					id: "6D576FBEE6EAA53D"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76AB79084D819171"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6401DB62BCC20443"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					id: "6C9FF38643167879"
+					item: "create:deployer"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "The heart of all Andesite Machines!"
+			tasks: [{
+				id: "1F9AFA49030B5A0B"
+				item: "kubejs:rotation_mechanism"
+				type: "item"
+			}]
+			title: "Building the Rotation Mechanism"
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["342BCE36CF749057"]
+			description: [
+				"Time to summon Mjölnir! Just kidding but you can craft the &6Hammer&r using a Crafting Table or a Mechanical Crafter for an automated supply of Hammers. "
+				""
+				"The Hammers have 64 uses until it breaks but you can enchant the hammer with &dUnbreaking I to V&r to make the Hammer last longer than 64 uses."
+				""
+				"&cRumor:&r &oI’ve heard that you can turn the Hammer into an unbreakable Hammer just like Mjölnir! Not the Marvel one though, that one still breaks.&r"
+				""
+				"{ \"text\": \"☞ Click here to learn more about the rumour.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"685A56030D996A81\" } }"
+			]
+			hide_dependency_lines: true
+			id: "0BEFDBD8AC519539"
+			rewards: [{
+				id: "548242B73EC0D05F"
+				item: {
+					Count: 1
+					id: "ad_astra:hammer"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 5
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C657F9C765B5184"
+				item: {
+					Count: 1
+					id: "ad_astra:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Hammer Acquisition"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E60FF6098CB030B"]
+			description: [
+				"With all your knowledge and hard work combined, you’ve achieved the ultimate goal of&c Chapter 1!&r The creation of the &aRotation Machine!&r"
+				""
+				"You should pat yourself in the back, you deserve it."
+				" "
+				"Now into &6Chapter 2!&r New challenges await you there."
+			]
+			hide_until_deps_complete: true
+			id: "3AEFFAED564130A6"
+			rewards: [
+				{
+					count: 2
+					id: "131F93BE1FCD6209"
+					item: "kubejs:andesite_machine"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0DD14B34DB4A7B93"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2475DBB309D7CCD4"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01F40A2E704680D9"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					id: "5509D7DFEB9473BB"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "15260D3E5D01A927"
+					item: {
+						Count: 1
+						id: "create_sabers:copper_saber_lime"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "10508B211B77AB83"
+				item: "kubejs:andesite_machine"
+				type: "item"
+			}]
+			title: "The Andesite Machine"
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"The start might be hard because there aren't many materials and machines, but keep going—your hard work will pay off. Remember, exploring is important."
+				""
+				"At start you will have to make some manual work. It's more expensive to craft &6Rotation Mechanism&r at crafting table so as soon you can automate it."
+				""
+				"You can also find some &erotation mechanisms&r in village chests, dimensional dungeons, when dungeons arise structures, and from Twilight Forest bosses to help you along the way."
+				""
+				"As you progress further into chapters of this modpack, It'll become quite challenging if you don't automate things."
+				""
+				"Tip: If you find a way to make something be automated, you should do it."
+				""
+				"And just a heads up: in Chapter III, you will unlock &aTom's Simple Storage&r to store all your items."
+				""
+				"Let's go on an adventure and build some amazing machines!"
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "342BCE36CF749057"
+			rewards: [
+				{
+					id: "503FF713551DE57F"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "551C7824C044FF34"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "34A85CE8EAFB3E78"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "7C4136DEB3AB9EFF"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "6A51B9F0E37DED09"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "501E705E75020F6D"
+					item: "quark:slime_in_a_bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7970E483F81A6425"
+				title: "&a&lUnlock&r&r"
+				type: "checkmark"
+			}]
+			title: "Lets get started!"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3AEFFAED564130A6"]
+			description: [
+				"&6The Stonecutter&r is essential to get the Create Machines, such as the Water Wheel or Funnel. By using an Andesite Machine and other Material Machines on the chapters ahead on a Stonecutter, you will get a list of the items equivalent to the machine you’re using, such as, using Andesite Machine will give you an Andesite based Create item list."
+				""
+				"You can automate the process by using a Mechanical Saw but make sure to use Filters to get the Item you want as it will generate a random one from the list."
+				""
+				""
+				"&lNote:&r &oNot all items are available on the Stonecutter/Mechanical Saw. Some Items require crafting of other parts. Make sure to use the JEI in such cases to know the recipe. &r"
+			]
+			hide_until_deps_complete: true
+			id: "1EEB1C5C7801D8D0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BD8248B41454CCC"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25B15C16659553C3"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7F189FDAF0AFA429"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			title: "Stonecutter"
+			x: 6.75d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5E60FF6098CB030B"]
+			description: [
+				"Remember that annoying block that tells you “YOU SHALL NOT PASS!”? &bYes, the Gravel&r, it hides useful resources awaiting to be harvested, such as Flint (25% chance) and most importantly &eIron Nuggets (12% chance).&r"
+				""
+				"To harvest the &3Iron Nuggets&r from within the depths of the &8Gravel Block&r, you need to use an &6Encased Fan&r with a &bwater&r source to wash the &8Gravel&r until it gives &6Flint and or Iron Nugget&r. "
+				""
+				"This can be used as an early&6 Iron Farm&r until you have a more advanced way to farm Iron. For a better infinite source of Iron, please check &2Renewable Ores chapter&r."
+				""
+				""
+				"&l&6Tip:&r&r &oYou can use a slab or a shaft to stop the water from flowing everywhere while allowing the fan to blow the water to wash the gravel.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0219E3A871B9029E"
+			optional: true
+			progression_mode: "flexible"
+			rewards: [{
+				count: 20
+				id: "1558F99EB6B4E3B6"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "OPTIONAL QUEST"
+			tasks: [
+				{
+					id: "56A627000A9D9F01"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "3BE46B32187869F6"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			title: "Early Iron Production (OPTIONAL)"
+			x: 8.5d
+			y: 2.0d
+		}
+	]
+	title: "Chapter I: The Foundation of Machines"
+}
