@@ -2906,3 +2906,75 @@ java.util.NoSuchElementException: No value present
 [28Jun2025 23:39:33.980] [Worker-Main-4/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. MutableBlockPos{x=-390, y=-46, z=1486}
 [28Jun2025 23:39:33.980] [Worker-Main-4/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. MutableBlockPos{x=-389, y=-46, z=1486}
 [28Jun2025 23:40:30.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [santydork: Teleported santydork to Chrisus]
+[28Jun2025 23:46:20.040] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/24707, l='ServerLevel[world]', x=-438.50, y=74.00, z=1640.50]
+[28Jun2025 23:46:37.744] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/24743, l='ServerLevel[world]', x=-462.50, y=73.00, z=1586.50]
+[28Jun2025 23:47:18.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Home Is Where the Bed Is]
+[28Jun2025 23:47:23.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chrisus: Gave 2 [Turtle Egg] to santydork]
+[28Jun2025 23:47:26.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chrisus: Teleported Chrisus to santydork]
+[28Jun2025 23:48:21.540] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/25384, l='ServerLevel[world]', x=-442.50, y=74.00, z=1589.50]
+[28Jun2025 23:48:29.989] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/25416, l='ServerLevel[world]', x=-433.50, y=70.00, z=1659.50]
+[28Jun2025 23:48:30.241] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/25418, l='ServerLevel[world]', x=-433.50, y=70.00, z=1657.50]
+[28Jun2025 23:49:18.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <santydork> PARA
+[28Jun2025 23:49:22.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <santydork> SE ME FUE EL ADUIO
+[28Jun2025 23:49:24.392] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/25673, l='ServerLevel[world]', x=-425.50, y=72.00, z=1591.50]
+[28Jun2025 23:49:25.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Chrisus> KAJAJAJJAJAJAJJA
+[28Jun2025 23:49:37.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] lalal
+[28Jun2025 23:50:58.814] [Worker-Main-4/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:50:58.815] [Worker-Main-4/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:50:58.888] [Worker-Main-4/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:50:58.888] [Worker-Main-4/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:50:58.896] [Worker-Main-4/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.755] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.757] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.758] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.824] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.825] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.825] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.825] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.826] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.826] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.826] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.827] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.827] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.827] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.827] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.887] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.906] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"quark:orange_rune"}
+[28Jun2025 23:51:01.907] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.907] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.907] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.907] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.907] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:01.907] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:02.160] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:02.160] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.467] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.468] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.468] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.468] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.468] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.468] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.468] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.469] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.469] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.470] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.470] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.486] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.486] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.486] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.486] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.487] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.487] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.488] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.488] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.530] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.531] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.531] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.531] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.548] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.548] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[28Jun2025 23:51:04.788] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[28Jun2025 23:51:04.788] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 0 is dual wielding: false
+[28Jun2025 23:51:04.789] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 1 iron_pickaxe
+[28Jun2025 23:51:04.789] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 1 shield
+[28Jun2025 23:51:04.789] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 2 | client: 1
