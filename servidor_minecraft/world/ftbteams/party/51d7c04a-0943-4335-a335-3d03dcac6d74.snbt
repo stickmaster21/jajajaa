@@ -2,11 +2,14 @@
 	id: "51d7c04a-0943-4335-a335-3d03dcac6d74"
 	type: "party"
 	owner: "f89a8ee5-4a63-3fb6-bf8c-20937d2813b9"
-	ranks: { }
+	ranks: {
+		f89a8ee5-4a63-3fb6-bf8c-20937d2813b9: "owner"
+		d4518864-211c-3690-b6c4-59acc2cbecc4: "member"
+	}
 	properties: {
 		"ftbteams:display_name": "PENE FLACIDO"
 		"ftbteams:description": ""
-		"ftbteams:color": "#FF59EC"
+		"ftbteams:color": "#59EEFF"
 		"ftbteams:free_to_join": 0b
 		"ftbteams:max_msg_history_size": 1000
 		"ftbchunks:allow_explosions": 0b
@@ -22,6 +25,10 @@
 		"ftbchunks:claim_visibility": "public"
 		"ftbchunks:location_mode": "allies"
 	}
-	message_history: [ ]
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1751151358193L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Chrisus\"}]}" }
+		{ from: "f89a8ee5-4a63-3fb6-bf8c-20937d2813b9", date: 1751151363629L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"santydork\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1751151366253L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"santydork\"}]}" }
+	]
 	extra: { }
 }

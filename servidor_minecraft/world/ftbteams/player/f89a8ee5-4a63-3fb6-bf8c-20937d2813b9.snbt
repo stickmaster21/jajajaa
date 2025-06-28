@@ -2,9 +2,7 @@
 	id: "f89a8ee5-4a63-3fb6-bf8c-20937d2813b9"
 	type: "player"
 	player_name: "Chrisus"
-	ranks: {
-		f89a8ee5-4a63-3fb6-bf8c-20937d2813b9: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "Chrisus"
 		"ftbteams:description": ""

@@ -2,9 +2,7 @@
 	id: "d4518864-211c-3690-b6c4-59acc2cbecc4"
 	type: "player"
 	player_name: "santydork"
-	ranks: {
-		d4518864-211c-3690-b6c4-59acc2cbecc4: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "santydork"
 		"ftbteams:description": ""
