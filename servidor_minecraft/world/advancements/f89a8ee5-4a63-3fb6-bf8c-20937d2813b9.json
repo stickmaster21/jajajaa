@@ -578,6 +578,7 @@
     "criteria": {
       "minecraft:pillager": "2025-06-28 23:08:19 +0000",
       "minecraft:skeleton": "2025-06-28 22:57:36 +0000",
+      "minecraft:zoglin": "2025-06-29 00:52:33 +0000",
       "minecraft:ravager": "2025-06-29 00:35:39 +0000",
       "minecraft:vindicator": "2025-06-29 00:38:18 +0000",
       "minecraft:spider": "2025-06-29 00:01:54 +0000",
@@ -627,6 +628,12 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2025-06-28 22:53:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-06-29 00:52:42 +0000"
     },
     "done": true
   },

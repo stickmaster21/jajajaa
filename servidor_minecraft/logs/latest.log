@@ -46,3 +46,10 @@
 [29Jun2025 00:50:00.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chrisus: Teleported Chrisus to santydork]
 [29Jun2025 00:50:50.902] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Issac'/43875, l='ServerLevel[world]', x=-535.30, y=93.19, z=2143.14] died, message: 'Issac was shot by Pillager'
 [29Jun2025 00:50:50.903] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Issac'/43875, l='ServerLevel[world]', x=-535.30, y=93.19, z=2143.14] died: Issac was shot by Pillager
+[29Jun2025 00:52:25.084] [Server thread/ERROR] [noobanidus.mods.lootr.api.LootrAPI/]: Unable to fill loot chest in minecraft:overworld at BlockPos{x=-554, y=93, z=2146} as the loot table 'idas:chests/pillagerjail' couldn't be resolved! Please search the loot table in `latest.log` to see if there are errors in loading.
+[29Jun2025 00:52:33.184] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zoglin['Pumbaa'/43889, l='ServerLevel[world]', x=-560.26, y=93.00, z=2141.90] died: Pumbaa was ended by Chrisus
+[29Jun2025 00:52:42.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Diamonds!]
+[29Jun2025 00:56:26.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chrisus: Teleported Chrisus to santydork]
+[29Jun2025 00:57:05.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [santydork: Teleported santydork to Chrisus]
+[29Jun2025 00:58:23.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] kajak
+[29Jun2025 01:01:22.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hh
