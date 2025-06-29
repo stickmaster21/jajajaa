@@ -14,3 +14,11 @@
 [29Jun2025 00:19:19.654] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jake'/41691, l='ServerLevel[world]', x=-383.54, y=66.00, z=2412.30] died, message: 'Jake discovered the floor was lava'
 [29Jun2025 00:19:19.655] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Jake'/41691, l='ServerLevel[world]', x=-383.54, y=66.00, z=2412.30] died: Jake discovered the floor was lava
 [29Jun2025 00:19:40.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has reached the goal [Big Boy]
+[29Jun2025 00:22:09.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Dark Forging]
+[29Jun2025 00:22:39.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] holaa
+[29Jun2025 00:23:31.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has reached the goal [Dark Blacksmith]
+[29Jun2025 00:26:01.216] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-698, y=34, z=1993}
+[29Jun2025 00:26:27.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chrisus: Gave 1 [Waystone] to Chrisus]
+[29Jun2025 00:28:38.882] [Worker-Main-4/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-736, y=20, z=2146}
+[29Jun2025 00:29:09.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has completed the challenge [Pillager Fortress]
+[29Jun2025 00:30:43.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [How the Turn Tables]

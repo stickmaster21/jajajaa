@@ -442,6 +442,12 @@
     },
     "done": true
   },
+  "born_in_chaos_v1:dark_forging": {
+    "criteria": {
+      "dark_forging_0": "2025-06-29 00:22:09 +0000"
+    },
+    "done": true
+  },
   "chalk:adventure/sleep_three_times_in_one_place": {
     "criteria": {
       "sleep_three_times_in_one_place": "2025-06-28 23:47:18 +0000"
@@ -478,6 +484,12 @@
     },
     "done": true
   },
+  "born_in_chaos_v1:squireofthe_dark_lord": {
+    "criteria": {
+      "squireofthe_dark_lord_0": "2025-06-29 00:23:31 +0000"
+    },
+    "done": false
+  },
   "immersive_paintings:misc/graffiti": {
     "criteria": {
       "has_item": "2025-06-28 23:52:56 +0000"
@@ -511,6 +523,12 @@
   "endrem:main/corrupted_eye": {
     "criteria": {
       "corrupted_eye": "2025-06-28 23:09:09 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_blacksmith": {
+    "criteria": {
+      "dark_blacksmith_0": "2025-06-29 00:23:31 +0000"
     },
     "done": true
   },
