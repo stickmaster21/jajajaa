@@ -2738,3 +2738,9 @@ java.util.NoSuchElementException: No value present
 [29Jun2025 19:35:15.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ssay hola<--[HERE]
 [29Jun2025 19:35:21.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
 [29Jun2025 19:35:21.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ssay hola<--[HERE]
+[29Jun2025 19:38:32.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Enchanter]
+[29Jun2025 19:45:03.718] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-105, y=-16, z=2319}
+[29Jun2025 19:45:03.719] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-104, y=-16, z=2319}
+[29Jun2025 19:45:46.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has reached the goal [Pray to the Goddess]
+[29Jun2025 19:45:46.551] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-360, y=-12, z=2632}
+[29Jun2025 19:46:16.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Disme A Dozen]
