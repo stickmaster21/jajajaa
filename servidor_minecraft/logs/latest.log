@@ -9,3 +9,8 @@
 [29Jun2025 00:05:26.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Good Demoman]
 [29Jun2025 00:07:32.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [santydork: Teleported santydork to Chrisus]
 [29Jun2025 00:10:28.207] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-106, y=-16, z=2319}
+[29Jun2025 00:14:48.067] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-200, y=-33, z=2057}
+[29Jun2025 00:14:48.067] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-200, y=-33, z=2056}
+[29Jun2025 00:19:19.654] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Jake'/41691, l='ServerLevel[world]', x=-383.54, y=66.00, z=2412.30] died, message: 'Jake discovered the floor was lava'
+[29Jun2025 00:19:19.655] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Jake'/41691, l='ServerLevel[world]', x=-383.54, y=66.00, z=2412.30] died: Jake discovered the floor was lava
+[29Jun2025 00:19:40.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has reached the goal [Big Boy]
