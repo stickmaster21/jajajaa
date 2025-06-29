@@ -2801,3 +2801,27 @@ java.util.NoSuchElementException: No value present
 [29Jun2025 20:27:26.312] [Server thread/INFO] [Jade/]: Syncing config to Chrisus (f89a8ee5-4a63-3fb6-bf8c-20937d2813b9)
 [29Jun2025 20:27:26.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] jajaj
 [29Jun2025 20:27:27.202] [Server thread/INFO] [ping-wheel/]: Channel update: Chrisus -> default
+[29Jun2025 20:27:54.076] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/19669, l='ServerLevel[world]', x=-246.50, y=71.00, z=2164.50]
+[29Jun2025 20:29:30.278] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/20062, l='ServerLevel[world]', x=-248.50, y=71.00, z=2163.50]
+[29Jun2025 20:30:00.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [santydork: Teleported santydork to Chrisus]
+[29Jun2025 20:31:17.126] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/20577, l='ServerLevel[world]', x=-210.50, y=75.00, z=2211.50]
+[29Jun2025 20:33:51.078] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/21637, l='ServerLevel[world]', x=-220.50, y=75.00, z=2206.50]
+[29Jun2025 20:34:57.279] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/22098, l='ServerLevel[world]', x=-220.50, y=75.00, z=2207.50]
+[29Jun2025 20:35:15.128] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/22172, l='ServerLevel[world]', x=-147.50, y=74.00, z=2260.50]
+[29Jun2025 20:35:21.778] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/22197, l='ServerLevel[world]', x=-176.50, y=73.00, z=2261.50]
+[29Jun2025 20:36:42.476] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/22529, l='ServerLevel[world]', x=-195.50, y=75.00, z=2236.50]
+[29Jun2025 20:37:01.192] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chrisus was kicked for floating too long!
+[29Jun2025 20:37:01.239] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chrisus lost connection: Flying is not enabled on this server
+[29Jun2025 20:37:01.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus left the game
+[29Jun2025 20:37:22.979] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Chrisus[/127.223.23.12:57597] logged in with entity id 22612 at (-311.5708228437021, -40.32522265826642, 2282.919845858887)
+[29Jun2025 20:37:22.981] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to Chrisus
+[29Jun2025 20:37:22.981] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to Chrisus
+[29Jun2025 20:37:22.981] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to Chrisus
+[29Jun2025 20:37:22.982] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to Chrisus
+[29Jun2025 20:37:22.983] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to Chrisus
+[29Jun2025 20:37:22.985] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to Chrisus
+[29Jun2025 20:37:22.985] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to Chrisus
+[29Jun2025 20:37:23.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus joined the game
+[29Jun2025 20:37:23.188] [Server thread/INFO] [Jade/]: Syncing config to Chrisus (f89a8ee5-4a63-3fb6-bf8c-20937d2813b9)
+[29Jun2025 20:37:23.869] [Server thread/INFO] [ping-wheel/]: Channel update: Chrisus -> default
+[29Jun2025 20:37:27.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] jajaj
