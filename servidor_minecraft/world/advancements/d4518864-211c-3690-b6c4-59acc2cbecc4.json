@@ -560,6 +560,12 @@
     },
     "done": true
   },
+  "create_enchantment_industry:recipes/printer": {
+    "criteria": {
+      "has_item": "2025-06-29 21:17:04 +0000"
+    },
+    "done": true
+  },
   "alexsmobs:alexsmobs/banana": {
     "criteria": {
       "banana": "2025-06-29 19:29:14 +0000"
@@ -734,9 +740,21 @@
     },
     "done": true
   },
+  "create_enchantment_industry:recipes/disenchanter": {
+    "criteria": {
+      "has_item": "2025-06-29 21:17:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2025-06-29 19:29:14 +0000"
+    },
+    "done": true
+  },
+  "create_dd:accelerator_motor": {
+    "criteria": {
+      "0": "2025-06-29 21:18:34 +0000"
     },
     "done": true
   },
