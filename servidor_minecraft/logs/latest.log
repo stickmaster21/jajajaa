@@ -2765,3 +2765,10 @@ java.util.NoSuchElementException: No value present
 [29Jun2025 20:06:11.440] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-792, y=27, z=2142}
 [29Jun2025 20:06:11.453] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5530ms or 110 ticks behind
 [29Jun2025 20:06:47.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Cloud Storage]
+[29Jun2025 20:10:36.702] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-360, y=-12, z=2633}
+[29Jun2025 20:12:24.386] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Arnulfo'/13250, l='ServerLevel[world]', x=-334.31, y=76.00, z=2448.39] died, message: 'Arnulfo was slain by Zombie'
+[29Jun2025 20:12:24.387] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Arnulfo'/13250, l='ServerLevel[world]', x=-334.31, y=76.00, z=2448.39] died: Arnulfo was slaughtered by Zombie
+[29Jun2025 20:13:01.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] jajaj
+[29Jun2025 20:14:43.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Cover Me with Diamonds]
+[29Jun2025 20:16:27.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has reached the goal [What a find!]
+[29Jun2025 20:16:52.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Cover Me with Diamonds]

@@ -552,6 +552,12 @@
     },
     "done": true
   },
+  "moped:copper_moped_root": {
+    "criteria": {
+      "copper_moped_root": "2025-06-29 20:08:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2025-06-29 19:29:14 +0000"
@@ -606,11 +612,23 @@
     },
     "done": true
   },
+  "create:copper": {
+    "criteria": {
+      "0": "2025-06-29 20:08:38 +0000"
+    },
+    "done": true
+  },
   "born_in_chaos_v1:squireofthe_dark_lord": {
     "criteria": {
       "squireofthe_dark_lord_0": "2025-06-29 19:38:13 +0000"
     },
     "done": false
+  },
+  "quark:get_bottled_cloud": {
+    "criteria": {
+      "get_bottled_cloud": "2025-06-29 20:06:47 +0000"
+    },
+    "done": true
   },
   "minecraft:story/form_obsidian": {
     "criteria": {
@@ -639,6 +657,12 @@
   "artifacts:amateur_archaeologist": {
     "criteria": {
       "find_artifact": "2025-06-29 19:47:41 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/root": {
+    "criteria": {
+      "copper": "2025-06-29 20:08:38 +0000"
     },
     "done": true
   },
