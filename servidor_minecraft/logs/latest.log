@@ -53,3 +53,25 @@
 [29Jun2025 00:57:05.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [santydork: Teleported santydork to Chrisus]
 [29Jun2025 00:58:23.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] kajak
 [29Jun2025 01:01:22.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hh
+[29Jun2025 01:03:15.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chrisus: Teleported Chrisus to santydork]
+[29Jun2025 01:03:33.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chrisus: Teleported Chrisus to santydork]
+[29Jun2025 01:04:28.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Fallen Sorcerer]
+[29Jun2025 01:05:40.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Hunt and Gather]
+[29Jun2025 01:06:32.602] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chrisus was kicked for floating too long!
+[29Jun2025 01:06:32.656] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chrisus lost connection: Flying is not enabled on this server
+[29Jun2025 01:06:32.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus left the game
+[29Jun2025 01:06:47.952] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Chrisus[/127.10.16.40:34423] logged in with entity id 55910 at (-536.9562227801459, 65.64582392761547, 2118.4365952943526)
+[29Jun2025 01:06:47.954] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to Chrisus
+[29Jun2025 01:06:47.954] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to Chrisus
+[29Jun2025 01:06:47.955] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to Chrisus
+[29Jun2025 01:06:47.955] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to Chrisus
+[29Jun2025 01:06:47.956] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to Chrisus
+[29Jun2025 01:06:47.958] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to Chrisus
+[29Jun2025 01:06:47.958] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to Chrisus
+[29Jun2025 01:06:48.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus joined the game
+[29Jun2025 01:06:48.096] [Server thread/INFO] [Jade/]: Syncing config to Chrisus (f89a8ee5-4a63-3fb6-bf8c-20937d2813b9)
+[29Jun2025 01:06:48.756] [Server thread/INFO] [ping-wheel/]: Channel update: Chrisus -> default
+[29Jun2025 01:12:58.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[29Jun2025 01:12:58.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: y lalal<--[HERE]
+[29Jun2025 01:12:59.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] lalal
+[29Jun2025 01:19:51.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [santydork: Teleported santydork to Chrisus]
