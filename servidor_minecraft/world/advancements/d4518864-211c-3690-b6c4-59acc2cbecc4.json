@@ -435,6 +435,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-06-28 23:07:37 +0000",
+      "minecraft:skeleton": "2025-06-29 19:56:45 +0000",
       "minecraft:spider": "2025-06-29 19:51:45 +0000",
       "minecraft:zombie": "2025-06-28 22:58:24 +0000",
       "minecraft:zombie_villager": "2025-06-29 19:51:33 +0000"
@@ -533,6 +534,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-06-29 19:57:39 +0000"
+    },
+    "done": true
+  },
   "alexsmobs:alexsmobs/banana": {
     "criteria": {
       "banana": "2025-06-29 19:29:14 +0000"
@@ -551,9 +558,27 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:basalt_deltas": "2025-06-29 19:59:28 +0000"
+    },
+    "done": false
+  },
+  "incendium:root": {
+    "criteria": {
+      "requirement": "2025-06-29 19:59:18 +0000"
+    },
+    "done": true
+  },
   "create:chocolate_bucket": {
     "criteria": {
       "0": "2025-06-29 19:29:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-06-29 19:59:18 +0000"
     },
     "done": true
   },
@@ -566,6 +591,12 @@
   "lootr:10loot": {
     "criteria": {
       "loot_stat": "2025-06-29 19:46:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-06-29 19:59:18 +0000"
     },
     "done": true
   },
@@ -608,6 +639,12 @@
   "artifacts:amateur_archaeologist": {
     "criteria": {
       "find_artifact": "2025-06-29 19:47:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-06-29 20:02:54 +0000"
     },
     "done": true
   },

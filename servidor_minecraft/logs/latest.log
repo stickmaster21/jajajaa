@@ -2750,3 +2750,18 @@ java.util.NoSuchElementException: No value present
 [29Jun2025 19:49:42.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Close Quarters]
 [29Jun2025 19:51:46.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chrisus: Teleported Chrisus to santydork]
 [29Jun2025 19:52:41.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has reached the goal [Dark Creator]
+[29Jun2025 19:57:30.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has reached the goal [Compact Necromancy]
+[29Jun2025 19:57:39.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Best Friends Forever]
+[29Jun2025 19:59:13.356] [Server thread/INFO] [net.blay09.mods.netherportalfix.NetherPortalFix/]: No return portal found
+[29Jun2025 19:59:15.985] [Worker-Main-4/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [8 above bottom-0 absolute]
+[29Jun2025 19:59:18.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [We Need to Go Deeper]
+[29Jun2025 19:59:18.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Incendium]
+[29Jun2025 19:59:19.535] [spark-async-sampler-worker-thread/WARN] [spark/]: Timed out waiting for world statistics
+[29Jun2025 19:59:28.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[29Jun2025 19:59:28.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: y jajaj<--[HERE]
+[29Jun2025 19:59:28.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] jaja
+[29Jun2025 19:59:28.464] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 15091ms or 301 ticks behind
+[29Jun2025 20:02:54.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [What a Deal!]
+[29Jun2025 20:06:11.440] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-792, y=27, z=2142}
+[29Jun2025 20:06:11.453] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5530ms or 110 ticks behind
+[29Jun2025 20:06:47.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Cloud Storage]
