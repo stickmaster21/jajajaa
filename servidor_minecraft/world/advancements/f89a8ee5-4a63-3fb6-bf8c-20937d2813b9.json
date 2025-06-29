@@ -424,7 +424,8 @@
       "minecraft:evoker": "2025-06-29 00:34:36 +0000",
       "minecraft:slime": "2025-06-29 01:08:37 +0000",
       "minecraft:vex": "2025-06-29 00:38:09 +0000",
-      "minecraft:zombie": "2025-06-28 22:58:56 +0000"
+      "minecraft:zombie": "2025-06-28 22:58:56 +0000",
+      "minecraft:zombie_villager": "2025-06-29 19:52:06 +0000"
     },
     "done": false
   },
@@ -719,9 +720,22 @@
     },
     "done": true
   },
+  "born_in_chaos_v1:charm_collector": {
+    "criteria": {
+      "charm_collector_1": "2025-06-29 19:52:42 +0000",
+      "charm_collector_3": "2025-06-29 19:52:42 +0000"
+    },
+    "done": false
+  },
   "minecraft:adventure/totem_of_undying": {
     "criteria": {
       "used_totem": "2025-06-29 19:32:35 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_creator": {
+    "criteria": {
+      "dark_creator_0": "2025-06-29 19:52:41 +0000"
     },
     "done": true
   },
