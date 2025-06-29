@@ -478,6 +478,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/grizzly_bear": {
+    "criteria": {
+      "killed_by": "2025-06-29 00:39:48 +0000"
+    },
+    "done": true
+  },
   "lootr:10loot": {
     "criteria": {
       "loot_stat": "2025-06-28 23:20:58 +0000"
@@ -573,11 +579,19 @@
       "minecraft:pillager": "2025-06-28 23:08:19 +0000",
       "minecraft:skeleton": "2025-06-28 22:57:36 +0000",
       "minecraft:ravager": "2025-06-29 00:35:39 +0000",
+      "minecraft:vindicator": "2025-06-29 00:38:18 +0000",
       "minecraft:spider": "2025-06-29 00:01:54 +0000",
       "minecraft:evoker": "2025-06-29 00:34:36 +0000",
+      "minecraft:vex": "2025-06-29 00:38:09 +0000",
       "minecraft:zombie": "2025-06-28 22:58:56 +0000"
     },
     "done": false
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-06-29 00:38:16 +0000"
+    },
+    "done": true
   },
   "born_in_chaos_v1:fighting_nightmares": {
     "criteria": {

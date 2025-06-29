@@ -38,3 +38,11 @@
 [29Jun2025 00:40:02.006] [Server thread/ERROR] [noobanidus.mods.lootr.api.LootrAPI/]: Unable to fill loot chest in minecraft:overworld at BlockPos{x=-554, y=93, z=2146} as the loot table 'idas:chests/pillagerjail' couldn't be resolved! Please search the loot table in `latest.log` to see if there are errors in loading.
 [29Jun2025 00:40:08.356] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zoglin['Pumbaa'/44483, l='ServerLevel[world]', x=-560.26, y=93.00, z=2142.74] died: Pumbaa got pwned by santydork
 [29Jun2025 00:41:14.687] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zoglin['Pumbaa'/43887, l='ServerLevel[world]', x=-559.26, y=94.25, z=2141.86] died: Pumbaa was executed by santydork
+[29Jun2025 00:43:27.686] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityDropBear['Brian'/43790, l='ServerLevel[world]', x=-530.80, y=93.00, z=2160.68] died: Brian got pwned by santydork
+[29Jun2025 00:43:30.384] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityDropBear['Brian'/43814, l='ServerLevel[world]', x=-528.82, y=95.00, z=2159.68] died: Brian got pwned by santydork
+[29Jun2025 00:44:44.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [santydork: Teleported santydork to Chrisus]
+[29Jun2025 00:46:10.884] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: santydork moved wrongly!
+[29Jun2025 00:46:11.204] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: santydork moved wrongly!
+[29Jun2025 00:50:00.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chrisus: Teleported Chrisus to santydork]
+[29Jun2025 00:50:50.902] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Issac'/43875, l='ServerLevel[world]', x=-535.30, y=93.19, z=2143.14] died, message: 'Issac was shot by Pillager'
+[29Jun2025 00:50:50.903] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Issac'/43875, l='ServerLevel[world]', x=-535.30, y=93.19, z=2143.14] died: Issac was shot by Pillager
