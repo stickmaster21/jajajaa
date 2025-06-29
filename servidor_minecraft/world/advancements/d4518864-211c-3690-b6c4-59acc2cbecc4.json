@@ -398,6 +398,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "bread": "2025-06-28 22:39:56 +0000",
+      "golden_apple": "2025-06-29 20:18:08 +0000",
       "golden_carrot": "2025-06-29 19:45:51 +0000"
     },
     "done": false
@@ -648,15 +649,33 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2025-06-29 20:14:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2025-06-29 19:38:32 +0000"
     },
     "done": true
   },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2025-06-29 20:17:50 +0000"
+    },
+    "done": true
+  },
   "artifacts:amateur_archaeologist": {
     "criteria": {
       "find_artifact": "2025-06-29 19:47:41 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_metallurgy": {
+    "criteria": {
+      "dark_metallurgy_0": "2025-06-29 20:20:23 +0000"
     },
     "done": true
   },

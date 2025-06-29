@@ -2772,3 +2772,32 @@ java.util.NoSuchElementException: No value present
 [29Jun2025 20:14:43.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Cover Me with Diamonds]
 [29Jun2025 20:16:27.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has reached the goal [What a find!]
 [29Jun2025 20:16:52.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has made the advancement [Cover Me with Diamonds]
+[29Jun2025 20:17:50.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has reached the goal [Postmortal]
+[29Jun2025 20:20:22.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus has reached the goal [Horror Under the Mantle]
+[29Jun2025 20:20:23.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santydork has made the advancement [Dark Metallurgy]
+[29Jun2025 20:20:34.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[29Jun2025 20:20:34.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ajaj<--[HERE]
+[29Jun2025 20:23:39.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chrisus: Teleported Chrisus to santydork]
+[29Jun2025 20:25:12.943] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-396, y=64, z=2204} BlockPos{x=-396, y=65, z=2204}
+[29Jun2025 20:25:12.969] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-396, y=64, z=2204} BlockPos{x=-396, y=65, z=2204}
+[29Jun2025 20:25:12.970] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-396, y=64, z=2204} BlockPos{x=-396, y=65, z=2204}
+[29Jun2025 20:25:13.009] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-396, y=64, z=2204} BlockPos{x=-396, y=65, z=2204}
+[29Jun2025 20:25:13.054] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-396, y=64, z=2204} BlockPos{x=-396, y=65, z=2204}
+[29Jun2025 20:25:13.119] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-396, y=64, z=2204} BlockPos{x=-396, y=65, z=2204}
+[29Jun2025 20:25:13.158] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-396, y=64, z=2204} BlockPos{x=-396, y=65, z=2204}
+[29Jun2025 20:26:53.442] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chrisus was kicked for floating too long!
+[29Jun2025 20:26:53.443] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chrisus lost connection: Flying is not enabled on this server
+[29Jun2025 20:26:53.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus left the game
+[29Jun2025 20:26:53.542] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[29Jun2025 20:27:26.128] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Chrisus[/127.223.23.12:45343] logged in with entity id 19474 at (-350.031456450364, 46.0404329834322, 2224.4145238509136)
+[29Jun2025 20:27:26.130] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to Chrisus
+[29Jun2025 20:27:26.131] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to Chrisus
+[29Jun2025 20:27:26.131] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to Chrisus
+[29Jun2025 20:27:26.131] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to Chrisus
+[29Jun2025 20:27:26.133] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to Chrisus
+[29Jun2025 20:27:26.135] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to Chrisus
+[29Jun2025 20:27:26.135] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to Chrisus
+[29Jun2025 20:27:26.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chrisus joined the game
+[29Jun2025 20:27:26.312] [Server thread/INFO] [Jade/]: Syncing config to Chrisus (f89a8ee5-4a63-3fb6-bf8c-20937d2813b9)
+[29Jun2025 20:27:26.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] jajaj
+[29Jun2025 20:27:27.202] [Server thread/INFO] [ping-wheel/]: Channel update: Chrisus -> default
