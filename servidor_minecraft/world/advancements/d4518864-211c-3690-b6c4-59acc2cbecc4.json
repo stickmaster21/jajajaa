@@ -650,6 +650,12 @@
     },
     "done": true
   },
+  "create:stressometer": {
+    "criteria": {
+      "0": "2025-06-29 21:27:14 +0000"
+    },
+    "done": true
+  },
   "born_in_chaos_v1:squireofthe_dark_lord": {
     "criteria": {
       "squireofthe_dark_lord_0": "2025-06-29 19:38:13 +0000"
@@ -755,6 +761,12 @@
   "create_dd:accelerator_motor": {
     "criteria": {
       "0": "2025-06-29 21:18:34 +0000"
+    },
+    "done": true
+  },
+  "explorerscompass:explorers_compass": {
+    "criteria": {
+      "has_compass": "2025-06-29 21:26:53 +0000"
     },
     "done": true
   },
