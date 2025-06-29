@@ -424,15 +424,33 @@
     },
     "done": true
   },
+  "idas:pillager_fortress": {
+    "criteria": {
+      "in_pillager_fortress": "2025-06-29 00:29:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2025-06-28 23:29:18 +0000"
     },
     "done": true
   },
+  "supplementaries:husbandry/turn_table": {
+    "criteria": {
+      "unlock": "2025-06-29 00:30:43 +0000"
+    },
+    "done": true
+  },
   "totw_modded:regular_tower": {
     "criteria": {
       "regular": "2025-06-28 23:10:10 +0000"
+    },
+    "done": true
+  },
+  "lootr:50loot": {
+    "criteria": {
+      "loot_stat": "2025-06-29 00:36:52 +0000"
     },
     "done": true
   },
@@ -554,7 +572,9 @@
     "criteria": {
       "minecraft:pillager": "2025-06-28 23:08:19 +0000",
       "minecraft:skeleton": "2025-06-28 22:57:36 +0000",
+      "minecraft:ravager": "2025-06-29 00:35:39 +0000",
       "minecraft:spider": "2025-06-29 00:01:54 +0000",
+      "minecraft:evoker": "2025-06-29 00:34:36 +0000",
       "minecraft:zombie": "2025-06-28 22:58:56 +0000"
     },
     "done": false
