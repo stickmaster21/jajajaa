@@ -2825,3 +2825,10 @@ java.util.NoSuchElementException: No value present
 [29Jun2025 20:37:23.188] [Server thread/INFO] [Jade/]: Syncing config to Chrisus (f89a8ee5-4a63-3fb6-bf8c-20937d2813b9)
 [29Jun2025 20:37:23.869] [Server thread/INFO] [ping-wheel/]: Channel update: Chrisus -> default
 [29Jun2025 20:37:27.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] jajaj
+[29Jun2025 20:38:50.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <santydork> si
+[29Jun2025 20:38:56.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <santydork> JUJUJ
+[29Jun2025 20:39:36.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <santydork> es q vino mi viejajej
+[29Jun2025 20:39:44.029] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/23198, l='ServerLevel[world]', x=-147.50, y=74.00, z=2258.50]
+[29Jun2025 20:39:56.858] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id guardvillagers:guard
+[29Jun2025 20:39:59.977] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/23301, l='ServerLevel[world]', x=-195.50, y=75.00, z=2235.50]
+[29Jun2025 20:40:13.577] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/23436, l='ServerLevel[world]', x=-80.50, y=71.00, z=2242.50]

@@ -516,6 +516,12 @@
     },
     "done": true
   },
+  "create_enchantment_industry:experienced_engineer": {
+    "criteria": {
+      "have_experience_nugget": "2025-06-29 20:35:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_helmet": "2025-06-29 19:29:14 +0000"
@@ -646,6 +652,12 @@
   "paraglider:pray_to_the_goddess": {
     "criteria": {
       "bargain": "2025-06-29 19:45:46 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/experience_rotor": {
+    "criteria": {
+      "has_item": "2025-06-29 20:35:44 +0000"
     },
     "done": true
   },
