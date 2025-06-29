@@ -369,112 +369,15 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-28 23:17:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-28 23:17:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-28 23:17:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-28 23:17:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-28 23:17:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-28 23:17:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-28 23:17:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-28 23:17:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-28 23:17:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-28 23:17:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-28 23:17:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-06-28 23:17:04 +0000"
-    },
-    "done": false
-  },
-  "lootr:1chest": {
-    "criteria": {
-      "opened_chest": "2025-06-28 22:59:28 +0000"
-    },
-    "done": true
-  },
-  "mutantmonsters:root": {
-    "criteria": {
-      "killed_something": "2025-06-28 22:55:15 +0000"
-    },
-    "done": true
-  },
-  "lootr:social": {
-    "criteria": {
-      "opened_barrel": "2025-06-28 22:59:43 +0000",
-      "opened_chest": "2025-06-28 22:59:28 +0000"
-    },
-    "done": false
-  },
   "paraglider:root": {
     "criteria": {
       "crafting_table": "2025-06-28 22:35:50 +0000"
     },
     "done": true
   },
-  "totw_modded:regular_tower": {
+  "minecraft:story/root": {
     "criteria": {
-      "regular": "2025-06-28 23:10:13 +0000"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:good_demoman": {
-    "criteria": {
-      "good_demoman_0": "2025-06-28 23:14:26 +0000"
+      "crafting_table": "2025-06-28 22:35:50 +0000"
     },
     "done": true
   },
@@ -490,17 +393,17 @@
     },
     "done": true
   },
-  "lootr:1barrel": {
+  "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "opened_barrel": "2025-06-28 22:59:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/salvage_sherd": {
-    "criteria": {
-      "has_sherd": "2025-06-28 22:57:23 +0000"
+      "bread": "2025-06-28 22:39:56 +0000"
     },
     "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-06-28 22:39:56 +0000"
+    },
+    "done": true
   },
   "farmersdelight:main/get_fd_seed": {
     "criteria": {
@@ -508,33 +411,9 @@
     },
     "done": true
   },
-  "born_in_chaos_v1:exorcism": {
+  "mutantmonsters:root": {
     "criteria": {
-      "exorcism_0": "2025-06-28 23:14:26 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:get_moonstone_shard": {
-    "criteria": {
-      "obtain_moonstone_shard": "2025-06-28 22:59:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/smelt_iron": {
-    "criteria": {
-      "iron": "2025-06-28 23:11:10 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:everbright/get_ventium": {
-    "criteria": {
-      "obtain_material": "2025-06-28 23:01:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/sleep_in_bed": {
-    "criteria": {
-      "slept_in_bed": "2025-06-28 23:00:40 +0000"
+      "killed_something": "2025-06-28 22:55:15 +0000"
     },
     "done": true
   },
@@ -543,6 +422,12 @@
       "killed_something": "2025-06-28 22:55:15 +0000"
     },
     "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2025-06-28 22:57:23 +0000"
+    },
+    "done": false
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
@@ -557,15 +442,46 @@
     },
     "done": true
   },
-  "minecraft:husbandry/balanced_diet": {
+  "lootr:1chest": {
     "criteria": {
-      "bread": "2025-06-28 22:39:56 +0000"
+      "opened_chest": "2025-06-28 22:59:28 +0000"
+    },
+    "done": true
+  },
+  "lootr:social": {
+    "criteria": {
+      "opened_barrel": "2025-06-28 22:59:43 +0000",
+      "opened_chest": "2025-06-28 22:59:28 +0000"
     },
     "done": false
   },
-  "minecraft:husbandry/root": {
+  "blue_skies:get_moonstone_shard": {
     "criteria": {
-      "consumed_item": "2025-06-28 22:39:56 +0000"
+      "obtain_moonstone_shard": "2025-06-28 22:59:38 +0000"
+    },
+    "done": true
+  },
+  "lootr:1barrel": {
+    "criteria": {
+      "opened_barrel": "2025-06-28 22:59:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-06-28 23:00:40 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everbright/get_ventium": {
+    "criteria": {
+      "obtain_material": "2025-06-28 23:01:42 +0000"
+    },
+    "done": true
+  },
+  "totw_modded:regular_tower": {
+    "criteria": {
+      "regular": "2025-06-28 23:10:13 +0000"
     },
     "done": true
   },
@@ -575,9 +491,69 @@
     },
     "done": true
   },
-  "minecraft:story/root": {
+  "minecraft:story/smelt_iron": {
     "criteria": {
-      "crafting_table": "2025-06-28 22:35:50 +0000"
+      "iron": "2025-06-28 23:11:10 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:good_demoman": {
+    "criteria": {
+      "good_demoman_0": "2025-06-28 23:14:26 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:exorcism": {
+    "criteria": {
+      "exorcism_0": "2025-06-28 23:14:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2025-06-29 19:29:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-06-29 19:29:14 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/banana": {
+    "criteria": {
+      "banana": "2025-06-29 19:29:14 +0000"
+    },
+    "done": true
+  },
+  "idas:pillager_fortress": {
+    "criteria": {
+      "in_pillager_fortress": "2025-06-29 19:29:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-06-29 19:29:14 +0000"
+    },
+    "done": true
+  },
+  "create:chocolate_bucket": {
+    "criteria": {
+      "0": "2025-06-29 19:29:14 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:root": {
+    "criteria": {
+      "ars_nouveau:worn_notebook": "2025-06-29 19:29:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-06-29 19:29:14 +0000"
     },
     "done": true
   },
